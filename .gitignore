@@ -17,4 +17,7 @@ __pycache__/
 .venv/
 *venv/
 
+# Large data/model files
+data/Sentences_75Agree.txt
+models/trained_financial_clf.pkl
 
