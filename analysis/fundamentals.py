@@ -86,3 +86,42 @@ def calc_sector_health(hist_etf):
 # Company Maturity (C)
 def calc_company_maturity(market_cap):
     return np.interp(np.log(market_cap), [np.log(1e9), np.log(2e12)], [0, 1])
+
+
+def get_fundamentals(ticker: str):
+    stock = yf.Ticker(ticker)
+    info = stock.info
+
+    # Sector handling
+    sector = info.get("sector", None)
+    if not sector:
+        sector = "Unknown"
+
+    # Load sector ETF
+    etf_ticker = sector_etf_map.get(sector, None)
+    if etf_ticker:
+        hist_etf = yf.Ticker(etf_ticker).history(period="1y")
+    else:
+        hist_etf = yf.Ticker("SPY").history(period="1y")  # fallback
+
+    # Load stock history
+    hist = stock.history(period="1y")
+
+    # 4. Calculate all components
+    E = calc_earnings_growth(stock)
+    V = calc_valuation(stock, sector)
+    M = calc_momentum(hist, hist_etf)
+    A = calc_analyst_sentiment(stock)
+    S = calc_sector_health(hist_etf)
+    C = calc_company_maturity(info.get("marketCap", 1e9))
+
+    # 5. Return clean dict for API
+    return {
+        "earnings_growth": float(E),
+        "valuation":      float(V),
+        "momentum":       float(M),
+        "analyst_sentiment": float(A),
+        "sector_health":  float(S),
+        "company_maturity": float(C),
+        "sector": sector
+    }

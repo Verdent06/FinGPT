@@ -1,7 +1,7 @@
 # analysis/sentiment.py
 import numpy as np
 
-def analyze_news_sentiment(news_articles, clf, embedder, label_map):
+def mpnet_analyzer(news_articles, clf, embedder, label_map):
     texts = [a.get('title','') + ". " + a.get('description','') for a in news_articles]
     numbers = embedder.encode(texts, batch_size=len(texts), show_progress_bar=False)
     probs = clf.predict_proba(numbers)
