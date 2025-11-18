@@ -80,19 +80,20 @@ python main.py
 
 3. **Outputs include**:
 
-* Fundamental scores
+- Fundamental scores
 
-* Macroeconomic analysis
+- Macroeconomic analysis
 
-* News sentiment summaries
+- News sentiment summaries
 
-* Optional LLM-generated recommendation
+- Optional LLM-generated recommendation
 
 ---
 ## Notes
 Large files such as models or reference data are ignored in Git and stored locally.
 
 Recommended Python version: 3.9+
+
 ---
 ## License
 This project is intended for personal and educational purposes only.
