@@ -21,3 +21,5 @@ __pycache__/
 data/Sentences_75Agree.txt
 models/trained_financial_clf.pkl
 
+#reference file
+stock_info.py

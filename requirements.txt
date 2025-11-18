@@ -1,0 +1,25 @@
+# Core data libraries
+numpy
+pandas
+scikit-learn
+
+# Finance APIs and data sources
+yfinance
+fredapi
+finnhub-python
+
+# NLP, embeddings, LLMs
+sentence-transformers
+transformers
+torch
+llama-cpp-python
+
+# Utils
+python-dotenv
+requests
+
+# Logging and config
+pydantic
+
+#General
+requests
