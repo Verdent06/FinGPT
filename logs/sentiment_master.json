@@ -1,0 +1,512 @@
+[
+    {
+        "timestamp": "20251118_143117",
+        "ticker": "AAPL",
+        "summary": {
+            "mpnet_score": 0.42699999999999994,
+            "llm_score": 0.0,
+            "llm_confidence": 0.0,
+            "combined_score": 0.29889999999999994,
+            "combined_label": "Positive",
+            "mpnet_weight": 0.7,
+            "llm_weight": 0.30000000000000004
+        },
+        "articles": [
+            {
+                "article_index": 0,
+                "title": "Apple Gains 25% Share of China Smartphone Market on iPhone 17 Demand",
+                "description": "Apple captured a quarter of China's smartphone market in October as sales of the iPhone 17 series accelerated.",
+                "tone": "Positive",
+                "sentiment_score": 0.89,
+                "raw_probabilities": [
+                    0.07,
+                    0.31,
+                    0.62
+                ]
+            },
+            {
+                "article_index": 1,
+                "title": "Apple Reclaims China Market -- iPhone 17 Drives Share to 25%",
+                "description": "Apple Hits 25% Share in China as New Models Outperform",
+                "tone": "Positive",
+                "sentiment_score": 1.25,
+                "raw_probabilities": [
+                    0.03,
+                    0.13,
+                    0.84
+                ]
+            },
+            {
+                "article_index": 2,
+                "title": "Apple Jumps to 25% Market Share in China",
+                "description": "iPhone 17 lineup sparks a major rebound for Apple",
+                "tone": "Positive",
+                "sentiment_score": 1.09,
+                "raw_probabilities": [
+                    0.04,
+                    0.22,
+                    0.74
+                ]
+            },
+            {
+                "article_index": 3,
+                "title": "China smartphone market sees 8% growth in October, iPhone 17 leads surge",
+                "description": "Investing.com -- China\u2019s smartphone market grew 8% year-over-year in October, with Apple Inc (NASDAQ:AAPL) capturing 25% of all sales as the iPhone 17 series continues its strong performance.",
+                "tone": "Positive",
+                "sentiment_score": 1.18,
+                "raw_probabilities": [
+                    0.04,
+                    0.16,
+                    0.8
+                ]
+            },
+            {
+                "article_index": 4,
+                "title": "Apple: As A Shareholder I Am Concerned About Their Ability To Innovate",
+                "description": "Apple posts record Q4 2025 earnings but faces growth concerns amid limited innovation and AI investment.",
+                "tone": "Neutral",
+                "sentiment_score": 0.29,
+                "raw_probabilities": [
+                    0.13,
+                    0.63,
+                    0.24
+                ]
+            },
+            {
+                "article_index": 5,
+                "title": "Apple takes 25% share of China smartphone market in October on iPhone 17 demand",
+                "description": "Apple last \u200cachieved this market share milestone in 2022 when competition in the premium segment was weaker.  China\u2019s overall smartphone sell-through grew 8% year-over-year in October, driven by Apple and domestic manufacturers, data showed.  \u2060All three iPhone 17 \u200cvariants posted mid-to-high double-digit percentage growth, led by the base variant, Counterpoint said.",
+                "tone": "Positive",
+                "sentiment_score": 0.77,
+                "raw_probabilities": [
+                    0.08,
+                    0.38,
+                    0.54
+                ]
+            },
+            {
+                "article_index": 6,
+                "title": "Apple\u2019s iPhone Sales Surge in China to Take 25% Market Share",
+                "description": "The figures suggest Apple\u2019s year-on-year upgrades are resonating with consumers and support Chief Executive Officer Tim Cook\u2019s prediction that the company will return to growth in China this quarter.  Each of the successor models, from the 5,999-yuan (about $850) iPhone 17 to the 8,999-yuan 17 Pro Max, outperformed its iPhone 16 precursor in sales by a double-digit percentage, according to Counterpoint.",
+                "tone": "Positive",
+                "sentiment_score": 0.98,
+                "raw_probabilities": [
+                    0.06,
+                    0.27,
+                    0.68
+                ]
+            },
+            {
+                "article_index": 7,
+                "title": "Dow Jones Futures: Apple, Google, Nvidia, Palantir, Tesla Big Movers Amid Stock Market Drop",
+                "description": "Dow Jones Futures: Apple, Google, Nvidia, Palantir and Tesla were big movers Monday during the stock market sell-off.",
+                "tone": "Neutral",
+                "sentiment_score": 0.1,
+                "raw_probabilities": [
+                    0.21,
+                    0.65,
+                    0.14
+                ]
+            },
+            {
+                "article_index": 8,
+                "title": "UBS Reiterates Neutral on Apple (AAPL) as iPhone Wait Times Remain Flat",
+                "description": "Apple Inc. (NASDAQ:AAPL) is one of the AI Stocks Investors Are Watching. On November 12, UBS reiterated the stock as \u201cNeutral\u201d and stated that its checks show Apple\u2019s iPhone wait times are \u201cflat.\u201d \u201cUBS Evidence Lab data that tracks iPhone availability across 30 geographies suggests more of the same: wait times are flat to down WoW [\u2026]",
+                "tone": "Neutral",
+                "sentiment_score": 0.12,
+                "raw_probabilities": [
+                    0.14,
+                    0.73,
+                    0.13
+                ]
+            },
+            {
+                "article_index": 9,
+                "title": "IDC: Apple still has room to grow in the India smartphone market",
+                "description": "Navkendar Singh, Vice President of IDC India, expects Apple's India sales to grow by another 10% to 15% annually over the next four to five years. He also explains how & why Chinese smartphone brands continue to lead India's smartphone market.",
+                "tone": "Neutral",
+                "sentiment_score": 0.59,
+                "raw_probabilities": [
+                    0.05,
+                    0.55,
+                    0.41
+                ]
+            },
+            {
+                "article_index": 10,
+                "title": "Tech, Media & Telecom Roundup: Market Talk",
+                "description": "Find insight on Masimo\u2019s jury verdict against Apple, Sinclair\u2019s stake in E.W. Scripps, Japanese AI-themed stocks and more in the latest Market Talks covering Technology, Media and Telecom.",
+                "tone": "Neutral",
+                "sentiment_score": 0.04,
+                "raw_probabilities": [
+                    0.02,
+                    0.95,
+                    0.03
+                ]
+            },
+            {
+                "article_index": 11,
+                "title": "Who could succeed Tim Cook as Apple CEO?",
+                "description": "Apple (AAPL) is reportedly planning for CEO Tim Cook to retire, with the iPhone maker considering company insiders to lead the company. Yahoo Finance Tech Editor Dan Howley outlines two Apple insiders who could step up and assume the chief executive mantle. To watch more expert insights and analysis on the latest market action, check out more\u00a0Market Domination.",
+                "tone": "Neutral",
+                "sentiment_score": -0.02,
+                "raw_probabilities": [
+                    0.09,
+                    0.89,
+                    0.02
+                ]
+            },
+            {
+                "article_index": 12,
+                "title": "Apple refused permission to appeal UK ruling on app store commissions",
+                "description": "LONDON (Reuters) -Apple was on Thursday refused permission to appeal against a London tribunal ruling that it abused its dominant position by charging \u200bapp developers unfair commissions, though the tech giant said it would pursue \u200can appeal to a higher court.  The Competition Appeal Tribunal (CAT) ruled against Apple last month after a \u200ctrial, finding Apple had abused its dominant position by shutting out competition in the app distribution market and \"charging excessive and unfair prices\" as commission.  The decision left Apple \u2013 which has faced mounting pressure from regulators in the U.S. and Europe over the fees \u2060it charges developers \u2013 \u200cfacing a potential bill of over 1 billion pounds ($1.3 billion).",
+                "tone": "Neutral",
+                "sentiment_score": 0.09,
+                "raw_probabilities": [
+                    0.19,
+                    0.69,
+                    0.12
+                ]
+            },
+            {
+                "article_index": 13,
+                "title": "Apple\u2019s MLS Streaming Shift May Alter Revenue-Share Plans",
+                "description": "When Apple and MLS announced their 10-year streaming tie-up in 2022, there were two key financial components: a $250 million annual guarantee from Apple, plus the opportunity for MLS to get a share of additional revenue if the new Season Pass subscription product achieved a certain level of success. But starting next season, MLS Season \u2026",
+                "tone": "Neutral",
+                "sentiment_score": 0.2,
+                "raw_probabilities": [
+                    0.08,
+                    0.76,
+                    0.16
+                ]
+            },
+            {
+                "article_index": 14,
+                "title": "Apple Turns AI Caution Into Gold as Rivals Drown in Spending Spree",
+                "description": "While Microsoft and Meta burn billions chasing AI dominance, Apple's restraint is suddenly its biggest strength.",
+                "tone": "Neutral",
+                "sentiment_score": 0.57,
+                "raw_probabilities": [
+                    0.07,
+                    0.53,
+                    0.41
+                ]
+            },
+            {
+                "article_index": 15,
+                "title": "These Stocks Are Moving the Most Today: Alphabet, Apple, Nvidia, Dell, XPeng, Tesla, E.W. Scripps, and More",
+                "description": "Alphabet rises after Berkshire Hathaway discloses it bought $4.3 billion worth of shares in the parent company of Google in the third quarter.",
+                "tone": "Neutral",
+                "sentiment_score": 0.15,
+                "raw_probabilities": [
+                    0.06,
+                    0.82,
+                    0.12
+                ]
+            },
+            {
+                "article_index": 16,
+                "title": "US jury says Apple must pay Masimo $634 million in smartwatch patent case",
+                "description": "(Reuters) -A federal jury in California said on Friday\u00a0that Apple owes medical-monitoring technology company Masimo $634 million for infringing a \u200bpatent covering blood-oxygen reading technology.  The jury agreed with Masimo that the Apple \u200cWatch's workout mode and heart rate notification features violated Masimo's patent rights, a Masimo spokesperson confirmed.  An Apple \u200cspokesperson said that the company disagrees with the verdict and will appeal.",
+                "tone": "Neutral",
+                "sentiment_score": 0.02,
+                "raw_probabilities": [
+                    0.09,
+                    0.86,
+                    0.04
+                ]
+            },
+            {
+                "article_index": 17,
+                "title": "Apple is ramping up succession plans for CEO Tim Cook and may tap this hardware exec to take over, report says",
+                "description": "John Ternus, Apple's senior VP of hardware engineering, could take control of the company as soon as next year, sources told the Financial Times.",
+                "tone": "Neutral",
+                "sentiment_score": 0.06,
+                "raw_probabilities": [
+                    0.04,
+                    0.91,
+                    0.05
+                ]
+            },
+            {
+                "article_index": 18,
+                "title": "Apple to Change Designs and Release Schedule",
+                "description": "Apple is set to change its iPhone designs and release cycle next year. Bloomberg Senior Tech Editor Dana Wollman joins Caroline Hyde on \"Bloomberg Tech\" to discuss the customer and competition impact.",
+                "tone": "Neutral",
+                "sentiment_score": 0.02,
+                "raw_probabilities": [
+                    0.03,
+                    0.95,
+                    0.02
+                ]
+            },
+            {
+                "article_index": 19,
+                "title": "Apple cuts App Store fee in half for 'mini apps' that integrate more of its software",
+                "description": "The Mini Apps Partner Program offers app developers the better fee in exchange for using some of Apple's technology to build their apps.",
+                "tone": "Neutral",
+                "sentiment_score": 0.15,
+                "raw_probabilities": [
+                    0.17,
+                    0.67,
+                    0.16
+                ]
+            }
+        ]
+    },
+    {
+        "timestamp": "20251118_144516",
+        "ticker": "AAPL",
+        "summary": {
+            "mpnet_score": 0.42699999999999994,
+            "llm_score": 0.0,
+            "llm_confidence": 0.0,
+            "combined_score": 0.29889999999999994,
+            "combined_label": "Positive",
+            "mpnet_weight": 0.7,
+            "llm_weight": 0.30000000000000004
+        },
+        "articles": [
+            {
+                "article_index": 0,
+                "title": "Apple Gains 25% Share of China Smartphone Market on iPhone 17 Demand",
+                "description": "Apple captured a quarter of China's smartphone market in October as sales of the iPhone 17 series accelerated.",
+                "tone": "Positive",
+                "sentiment_score": 0.89,
+                "raw_probabilities": [
+                    0.07,
+                    0.31,
+                    0.62
+                ]
+            },
+            {
+                "article_index": 1,
+                "title": "Apple Reclaims China Market -- iPhone 17 Drives Share to 25%",
+                "description": "Apple Hits 25% Share in China as New Models Outperform",
+                "tone": "Positive",
+                "sentiment_score": 1.25,
+                "raw_probabilities": [
+                    0.03,
+                    0.13,
+                    0.84
+                ]
+            },
+            {
+                "article_index": 2,
+                "title": "Apple Jumps to 25% Market Share in China",
+                "description": "iPhone 17 lineup sparks a major rebound for Apple",
+                "tone": "Positive",
+                "sentiment_score": 1.09,
+                "raw_probabilities": [
+                    0.04,
+                    0.22,
+                    0.74
+                ]
+            },
+            {
+                "article_index": 3,
+                "title": "China smartphone market sees 8% growth in October, iPhone 17 leads surge",
+                "description": "Investing.com -- China\u2019s smartphone market grew 8% year-over-year in October, with Apple Inc (NASDAQ:AAPL) capturing 25% of all sales as the iPhone 17 series continues its strong performance.",
+                "tone": "Positive",
+                "sentiment_score": 1.18,
+                "raw_probabilities": [
+                    0.04,
+                    0.16,
+                    0.8
+                ]
+            },
+            {
+                "article_index": 4,
+                "title": "Apple: As A Shareholder I Am Concerned About Their Ability To Innovate",
+                "description": "Apple posts record Q4 2025 earnings but faces growth concerns amid limited innovation and AI investment.",
+                "tone": "Neutral",
+                "sentiment_score": 0.29,
+                "raw_probabilities": [
+                    0.13,
+                    0.63,
+                    0.24
+                ]
+            },
+            {
+                "article_index": 5,
+                "title": "Apple takes 25% share of China smartphone market in October on iPhone 17 demand",
+                "description": "Apple last \u200cachieved this market share milestone in 2022 when competition in the premium segment was weaker.  China\u2019s overall smartphone sell-through grew 8% year-over-year in October, driven by Apple and domestic manufacturers, data showed.  \u2060All three iPhone 17 \u200cvariants posted mid-to-high double-digit percentage growth, led by the base variant, Counterpoint said.",
+                "tone": "Positive",
+                "sentiment_score": 0.77,
+                "raw_probabilities": [
+                    0.08,
+                    0.38,
+                    0.54
+                ]
+            },
+            {
+                "article_index": 6,
+                "title": "Apple\u2019s iPhone Sales Surge in China to Take 25% Market Share",
+                "description": "The figures suggest Apple\u2019s year-on-year upgrades are resonating with consumers and support Chief Executive Officer Tim Cook\u2019s prediction that the company will return to growth in China this quarter.  Each of the successor models, from the 5,999-yuan (about $850) iPhone 17 to the 8,999-yuan 17 Pro Max, outperformed its iPhone 16 precursor in sales by a double-digit percentage, according to Counterpoint.",
+                "tone": "Positive",
+                "sentiment_score": 0.98,
+                "raw_probabilities": [
+                    0.06,
+                    0.27,
+                    0.68
+                ]
+            },
+            {
+                "article_index": 7,
+                "title": "Dow Jones Futures: Apple, Google, Nvidia, Palantir, Tesla Big Movers Amid Stock Market Drop",
+                "description": "Dow Jones Futures: Apple, Google, Nvidia, Palantir and Tesla were big movers Monday during the stock market sell-off.",
+                "tone": "Neutral",
+                "sentiment_score": 0.1,
+                "raw_probabilities": [
+                    0.21,
+                    0.65,
+                    0.14
+                ]
+            },
+            {
+                "article_index": 8,
+                "title": "UBS Reiterates Neutral on Apple (AAPL) as iPhone Wait Times Remain Flat",
+                "description": "Apple Inc. (NASDAQ:AAPL) is one of the AI Stocks Investors Are Watching. On November 12, UBS reiterated the stock as \u201cNeutral\u201d and stated that its checks show Apple\u2019s iPhone wait times are \u201cflat.\u201d \u201cUBS Evidence Lab data that tracks iPhone availability across 30 geographies suggests more of the same: wait times are flat to down WoW [\u2026]",
+                "tone": "Neutral",
+                "sentiment_score": 0.12,
+                "raw_probabilities": [
+                    0.14,
+                    0.73,
+                    0.13
+                ]
+            },
+            {
+                "article_index": 9,
+                "title": "IDC: Apple still has room to grow in the India smartphone market",
+                "description": "Navkendar Singh, Vice President of IDC India, expects Apple's India sales to grow by another 10% to 15% annually over the next four to five years. He also explains how & why Chinese smartphone brands continue to lead India's smartphone market.",
+                "tone": "Neutral",
+                "sentiment_score": 0.59,
+                "raw_probabilities": [
+                    0.05,
+                    0.55,
+                    0.41
+                ]
+            },
+            {
+                "article_index": 10,
+                "title": "Tech, Media & Telecom Roundup: Market Talk",
+                "description": "Find insight on Masimo\u2019s jury verdict against Apple, Sinclair\u2019s stake in E.W. Scripps, Japanese AI-themed stocks and more in the latest Market Talks covering Technology, Media and Telecom.",
+                "tone": "Neutral",
+                "sentiment_score": 0.04,
+                "raw_probabilities": [
+                    0.02,
+                    0.95,
+                    0.03
+                ]
+            },
+            {
+                "article_index": 11,
+                "title": "Who could succeed Tim Cook as Apple CEO?",
+                "description": "Apple (AAPL) is reportedly planning for CEO Tim Cook to retire, with the iPhone maker considering company insiders to lead the company. Yahoo Finance Tech Editor Dan Howley outlines two Apple insiders who could step up and assume the chief executive mantle. To watch more expert insights and analysis on the latest market action, check out more\u00a0Market Domination.",
+                "tone": "Neutral",
+                "sentiment_score": -0.02,
+                "raw_probabilities": [
+                    0.09,
+                    0.89,
+                    0.02
+                ]
+            },
+            {
+                "article_index": 12,
+                "title": "Apple refused permission to appeal UK ruling on app store commissions",
+                "description": "LONDON (Reuters) -Apple was on Thursday refused permission to appeal against a London tribunal ruling that it abused its dominant position by charging \u200bapp developers unfair commissions, though the tech giant said it would pursue \u200can appeal to a higher court.  The Competition Appeal Tribunal (CAT) ruled against Apple last month after a \u200ctrial, finding Apple had abused its dominant position by shutting out competition in the app distribution market and \"charging excessive and unfair prices\" as commission.  The decision left Apple \u2013 which has faced mounting pressure from regulators in the U.S. and Europe over the fees \u2060it charges developers \u2013 \u200cfacing a potential bill of over 1 billion pounds ($1.3 billion).",
+                "tone": "Neutral",
+                "sentiment_score": 0.09,
+                "raw_probabilities": [
+                    0.19,
+                    0.69,
+                    0.12
+                ]
+            },
+            {
+                "article_index": 13,
+                "title": "Apple\u2019s MLS Streaming Shift May Alter Revenue-Share Plans",
+                "description": "When Apple and MLS announced their 10-year streaming tie-up in 2022, there were two key financial components: a $250 million annual guarantee from Apple, plus the opportunity for MLS to get a share of additional revenue if the new Season Pass subscription product achieved a certain level of success. But starting next season, MLS Season \u2026",
+                "tone": "Neutral",
+                "sentiment_score": 0.2,
+                "raw_probabilities": [
+                    0.08,
+                    0.76,
+                    0.16
+                ]
+            },
+            {
+                "article_index": 14,
+                "title": "Apple Turns AI Caution Into Gold as Rivals Drown in Spending Spree",
+                "description": "While Microsoft and Meta burn billions chasing AI dominance, Apple's restraint is suddenly its biggest strength.",
+                "tone": "Neutral",
+                "sentiment_score": 0.57,
+                "raw_probabilities": [
+                    0.07,
+                    0.53,
+                    0.41
+                ]
+            },
+            {
+                "article_index": 15,
+                "title": "These Stocks Are Moving the Most Today: Alphabet, Apple, Nvidia, Dell, XPeng, Tesla, E.W. Scripps, and More",
+                "description": "Alphabet rises after Berkshire Hathaway discloses it bought $4.3 billion worth of shares in the parent company of Google in the third quarter.",
+                "tone": "Neutral",
+                "sentiment_score": 0.15,
+                "raw_probabilities": [
+                    0.06,
+                    0.82,
+                    0.12
+                ]
+            },
+            {
+                "article_index": 16,
+                "title": "US jury says Apple must pay Masimo $634 million in smartwatch patent case",
+                "description": "(Reuters) -A federal jury in California said on Friday\u00a0that Apple owes medical-monitoring technology company Masimo $634 million for infringing a \u200bpatent covering blood-oxygen reading technology.  The jury agreed with Masimo that the Apple \u200cWatch's workout mode and heart rate notification features violated Masimo's patent rights, a Masimo spokesperson confirmed.  An Apple \u200cspokesperson said that the company disagrees with the verdict and will appeal.",
+                "tone": "Neutral",
+                "sentiment_score": 0.02,
+                "raw_probabilities": [
+                    0.09,
+                    0.86,
+                    0.04
+                ]
+            },
+            {
+                "article_index": 17,
+                "title": "Apple is ramping up succession plans for CEO Tim Cook and may tap this hardware exec to take over, report says",
+                "description": "John Ternus, Apple's senior VP of hardware engineering, could take control of the company as soon as next year, sources told the Financial Times.",
+                "tone": "Neutral",
+                "sentiment_score": 0.06,
+                "raw_probabilities": [
+                    0.04,
+                    0.91,
+                    0.05
+                ]
+            },
+            {
+                "article_index": 18,
+                "title": "Apple to Change Designs and Release Schedule",
+                "description": "Apple is set to change its iPhone designs and release cycle next year. Bloomberg Senior Tech Editor Dana Wollman joins Caroline Hyde on \"Bloomberg Tech\" to discuss the customer and competition impact.",
+                "tone": "Neutral",
+                "sentiment_score": 0.02,
+                "raw_probabilities": [
+                    0.03,
+                    0.95,
+                    0.02
+                ]
+            },
+            {
+                "article_index": 19,
+                "title": "Apple cuts App Store fee in half for 'mini apps' that integrate more of its software",
+                "description": "The Mini Apps Partner Program offers app developers the better fee in exchange for using some of Apple's technology to build their apps.",
+                "tone": "Neutral",
+                "sentiment_score": 0.15,
+                "raw_probabilities": [
+                    0.17,
+                    0.67,
+                    0.16
+                ]
+            }
+        ]
+    }
+]

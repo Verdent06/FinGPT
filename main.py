@@ -48,7 +48,7 @@ fundamentals_dict = {"E": E, "V": V, "M": M, "A": A, "S": S, "C": C}
 
 # ----------------- News Sentiment -----------------
 raw_news = news_handler.fetch_company_news(ticker, company_name)
-sentiment_result = score_calculator.get_hybrid_sentiment(raw_news)
+sentiment_result = score_calculator.get_hybrid_sentiment(raw_news, ticker)
 hybrid_sentiment = sentiment_result["combined_score"]
 
 # ----------------- Calculate Scores -----------------

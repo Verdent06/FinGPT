@@ -37,6 +37,7 @@ def get_llm_recommendation(llm, ticker, info, fundamentals_metrics, final_score,
     """
     Placeholder for LLM recommendation.
     You can replace with actual prompt & LLM call logic.
+
     Returns:
     - numeric score (0-100)
     - recommendation string ("Buy"/"Hold"/"Sell")
@@ -44,3 +45,5 @@ def get_llm_recommendation(llm, ticker, info, fundamentals_metrics, final_score,
     """
     # TODO: Implement LLM prompt & parse output
     return 50, "Hold", "LLM placeholder justification"
+
+
