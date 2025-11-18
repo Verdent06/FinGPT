@@ -2,8 +2,9 @@
 import finnhub
 from datetime import date, timedelta
 import random
+from utils.config_loader import CONFIG
 
-def fetch_company_news(ticker, company_name, api_key = "d3t6fphr01qqdgfuef80d3t6fphr01qqdgfuef8g" , max_articles=20):
+def fetch_company_news(ticker, company_name, api_key = CONFIG["finnhub"]["api_key"] , max_articles=20):
     """
     Fetch company news using Finnhub API.
     

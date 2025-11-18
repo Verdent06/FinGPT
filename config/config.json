@@ -1,0 +1,12 @@
+{
+  "fred": {
+    "api_key": "b4cfbd3791589e654f9aefbf9f1f4038"
+  },
+  "finnhub": {
+    "api_key": "d3t6fphr01qqdgfuef80d3t6fphr01qqdgfuef8g"
+  },
+  "llm": {
+    "model_path":"/Users/vedantdesai/Downloads/LLMs/Llama 2 7B.gguf",
+    "use_llm": true
+  }
+}

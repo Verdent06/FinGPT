@@ -21,5 +21,6 @@ __pycache__/
 data/Sentences_75Agree.txt
 models/trained_financial_clf.pkl
 
-#reference file
+#sensitive files
 stock_info.py
+config.json

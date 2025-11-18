@@ -1,11 +1,17 @@
 # models/llm_handler.py
 from llama_cpp import Llama
 import warnings, sys, os, contextlib
+from utils.config_loader import CONFIG
 
-def load_llm(model_path="/Users/vedantdesai/Downloads/LLMs/Llama 2 7B.gguf"):
+def load_llm():
+
     """
     Load LLaMA 2 model with suppressed stderr to avoid cluttered output.
     """
+
+    model_path=CONFIG["llm"]["model_path"]
+    USE_LLM = CONFIG["llm"].get("use_llm", True) # enable/disable llama for testing
+
     @contextlib.contextmanager
     def suppress_stderr():
         with open(os.devnull, "w") as devnull:
