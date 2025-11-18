@@ -20,6 +20,3 @@ requests
 
 # Logging and config
 pydantic
-
-#General
-requests
