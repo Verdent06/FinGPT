@@ -13,7 +13,7 @@ def calculate_final_score(fundamentals: dict, news_sentiment: float, macro_score
     
     fundamental_score = (fundamentals["E"]*0.4 + fundamentals["V"]*0.2 + 
                          fundamentals["M"]*0.15 + fundamentals["A"]*0.1 + 
-                         fundamentals["C"]*0.05)
+                         fundamentals["C"]*0.05 + fundamentals["S"]*0.1)
     
     score = w1 * fundamental_score + w2 * news_sentiment + w3 * macro_score
     score = np.clip(score, -1, 1)

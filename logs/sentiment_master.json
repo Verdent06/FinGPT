@@ -508,5 +508,260 @@
                 ]
             }
         ]
+    },
+    {
+        "timestamp": "20251119_114912",
+        "ticker": "MSFT",
+        "summary": {
+            "mpnet_score": 0.0985,
+            "llm_score": 0.0,
+            "llm_confidence": 0.0,
+            "combined_score": 0.06895,
+            "combined_label": "Neutral",
+            "mpnet_weight": 0.7,
+            "llm_weight": 0.30000000000000004
+        },
+        "articles": [
+            {
+                "article_index": 0,
+                "title": "This $1 Billion Trump Loan For Three Mile Island Lifts S&P 500 Nuclear Giant",
+                "description": "Constellation Energy shares angled higher at Wednesday's stock market open after the Department of Energy announced late Tuesday that the S&P 500 nuclear giant's plans to restart a Three Mile Island reactor is now backed by a $1 billion Trump administration loan.  The Department of Energy loan is expected to cover much of the project's estimated $1.6 billion cost with the first advance expected to make its way to Constellation Energy in Q1 2026.  The nuclear giant first announced it will be firing back up Pennsylvania's Three Mile Island Unit 1 in September 2024 as part of a two-decade long contract with Microsoft to provide power for the tech giant's data centers.",
+                "tone": "Neutral",
+                "sentiment_score": 0.35,
+                "raw_probabilities": [
+                    0.07,
+                    0.68,
+                    0.26
+                ]
+            },
+            {
+                "article_index": 1,
+                "title": "IntelePeer Supercharges AI Platform with Microsoft Azure Cosmos DB for Enterprise-Grade Performance",
+                "description": "DANIA BEACH, Fla., November 19, 2025--IntelePeer, an end-to-end conversational and agentic AI platform provider, today announced it has integrated advanced capabilities of Microsoft Azure Cosmos DB into its conversational and agentic AI platform, giving multi-location healthcare organizations and medical practices enterprise-grade performance and scalability for delivering superior patient experiences.",
+                "tone": "Neutral",
+                "sentiment_score": 0.09,
+                "raw_probabilities": [
+                    0.01,
+                    0.93,
+                    0.06
+                ]
+            },
+            {
+                "article_index": 2,
+                "title": "Truist names Pascal Belaud as chief AI & data officer",
+                "description": "Truist Financial Corporation (NYSE: TFC) today announced that Pascal Belaud will be the company's chief AI & data officer, starting Nov. 24. Belaud, who joins the company from a long tenure at Microsoft, will be responsible for shaping the strategic vision and execution of Truist's AI, data, and advanced automation strategy across the enterprise. He will report to Truist Chief Information Officer Steve Hagerman.",
+                "tone": "Neutral",
+                "sentiment_score": 0.05,
+                "raw_probabilities": [
+                    0.02,
+                    0.94,
+                    0.04
+                ]
+            },
+            {
+                "article_index": 3,
+                "title": "AI Weekly: Mega\u00a0deals and Moli\u00e8re-inspired plays",
+                "description": "STORY: From multi-billion dollar deals, to plays written with AI -- this is AI Weekly. --\u00a0:: AI WeeklyMicrosoft and Nvidia have made a mega deal with Claude-maker Anthropic, featuring tens of billions of dollars of spending.It includes a $30 billion commitment by the AI company to Microsoft's cloud services, Azure.\u00a0And both Nvidia and Microsoft committing up to $10 billion and $5 billion in Anthropic, respectively.\u00a0The agreement\u00a0brings together major players in the AI industry, with Claude being a major rival to ChatGPT.Elon Musk\u2019s artificial-intelligence startup xAI is in advanced talks to raise $15 billion in new equity - at a valuation of $230 billion.That's according to the Wall Street Journal.\u00a0The new valuation would more than double the amount disclosed in March.The startup has been rapidly scaling its data-center footprint to train more advanced models, as it tries to close the gap with OpenAI\u2019s ChatGPT and Anthropic\u2019s Claude.\u00a0Bank of America is planning to spend $4 billion more in new technology, including AI, to boost bankers' productivity and drive revenue growth.The bank's chief technology officer said its 18,000 developers have used AI agents for the past year, with significant gains in productivity.The second-biggest U.S. lender sends AI-generated market information to its financial advisers, combined with data on clients' portfolios, so that bankers can better tailor their investment advice.Nvidia's move to use smartphone-style memory chips in its AI servers could cause server-memory prices to double by late 2026.That's according to a report published Wednesday by Counterpoint Research.Electronics supply chains worldwide have been hit by a shortage of legacy memory chips in the last two months.Manufacturers have turned their focus to high-end memory chips suited to semiconductors.Counterpoint says Nvidia's decision to reduce AI server power costs, by changing the kind of memory chip it uses, could create sudden demand that the industry is not prepared for.:: Sorbonne Universite / Theatre Moliere SorbonneAnd, scholars have teamed up with an AI collective in Paris to create a new play written in the style of the famous 17th-century playwright Moliere.Over the last three years, the team has trained the French-developed Mistral AI on Moliere's works, personal library texts, and historical documents to replicate his language and humor.A production called \"The Astrologer or the False Omens\" is set to debut at the Chateau de Versailles in May 2026.",
+                "tone": "Neutral",
+                "sentiment_score": 0.02,
+                "raw_probabilities": [
+                    0.04,
+                    0.93,
+                    0.03
+                ]
+            },
+            {
+                "article_index": 4,
+                "title": "Lumen Launches Defender Advanced Managed Detection and Response for Microsoft Customers",
+                "description": "DENVER, November 19, 2025--As AI and cloud adoption accelerate, so do the speed and sophistication of cyberattacks. To help organizations keep pace, Lumen Technologies (NYSE: LUMN) today announced the launch of Lumen Defender\u2120 Advanced Managed Detection and Response (AMDR) with Microsoft Sentinel\u2014a fully managed, cloud-native security solution that merges Lumen\u2019s global network intelligence with Microsoft\u2019s leading security platform.",
+                "tone": "Neutral",
+                "sentiment_score": 0.07,
+                "raw_probabilities": [
+                    0.02,
+                    0.93,
+                    0.05
+                ]
+            },
+            {
+                "article_index": 5,
+                "title": "INVENT Appoints Former Microsoft and Red Hat Executive Jim Zimmerman as Chief AI Officer",
+                "description": "INVENT, the leading platform solving for the integration and data management challenges in wealth management, announced today the appointment of Jim Zimmerman as its Chief AI Officer. Zimmerman joins Invent following a distinguished career at Microsoft and Red Hat, where he helped shape cloud, open-source, and AI strategies that transformed how enterprise developers deploy and manage technology at scale.",
+                "tone": "Neutral",
+                "sentiment_score": 0.19,
+                "raw_probabilities": [
+                    0.01,
+                    0.86,
+                    0.13
+                ]
+            },
+            {
+                "article_index": 6,
+                "title": "2U to Launch Microsoft AI Program for Global Executives on edX",
+                "description": "2U, a global leader in education technology, today announced a collaboration with Microsoft to launch CxO Edge: Run your business on AI, a new online executive education program launching first on edX, 2U's global online learning platform, in early 2026. Introduced today at Microsoft's Ignite conference, the program helps business leaders move from AI experimentation to measurable enterprise performance.",
+                "tone": "Neutral",
+                "sentiment_score": 0.05,
+                "raw_probabilities": [
+                    0.01,
+                    0.95,
+                    0.04
+                ]
+            },
+            {
+                "article_index": 7,
+                "title": "Informatica Deepens Collaboration with Microsoft to Accelerate Enterprise GenAI with Trusted Data",
+                "description": "REDWOOD CITY, Calif., November 19, 2025--Informatica, a leader in enterprise AI-powered cloud data management, today announced three strategic innovations with Microsoft. The announcement, at the Microsoft Ignite 2025 conference, showcases the integration of Informatica\u2019s Intelligent Data Management Cloud (IDMC) platform with Microsoft Foundry, Microsoft\u2019s enterprise-grade agentic AI platform.",
+                "tone": "Neutral",
+                "sentiment_score": 0.16,
+                "raw_probabilities": [
+                    0.01,
+                    0.88,
+                    0.11
+                ]
+            },
+            {
+                "article_index": 8,
+                "title": "Sepio Becomes Eligible for Microsoft MACC - Unlocks Asset-Level Visibility via Azure Marketplace",
+                "description": "Sepio, the pioneer in hardware-asset risk management, today announced that it is now eligible under the Microsoft Azure Consumption Commitment (MACC) program via the Azure Marketplace. This enables organizations with existing MACC agreements to apply committed Microsoft Azure spend toward acquiring Sepio's innovative software-based solution, bringing deep visibility and control to IT, IoT, OT and CPS environments.",
+                "tone": "Neutral",
+                "sentiment_score": 0.05,
+                "raw_probabilities": [
+                    0.0,
+                    0.96,
+                    0.03
+                ]
+            },
+            {
+                "article_index": 9,
+                "title": "CrashPlan Deepens Collaboration with Microsoft to Strengthen Enterprise Data Resilience",
+                "description": "MINNEAPOLIS, November 19, 2025--CrashPlan expands Microsoft partnership with M365 archiving, AI-search innovation, and will showcase these advancements at Microsoft Ignite 2025.",
+                "tone": "Neutral",
+                "sentiment_score": 0.04,
+                "raw_probabilities": [
+                    0.09,
+                    0.86,
+                    0.05
+                ]
+            },
+            {
+                "article_index": 10,
+                "title": "Kasisto Powers AI for Banking Across the Microsoft Enterprise Ecosystem",
+                "description": "NEW YORK, November 19, 2025--Kasisto, a leader in banking AI, today announced that its KAIgentic platform is one of the first agentic platforms integrated with Microsoft Agent 365, enabling financial institutions to deploy intelligent, compliant banking AI agents across the Microsoft enterprise ecosystem. The integration allows banks using Microsoft 365 to manage domain specific AI agents that transform customer engagement, elevate employee productivity, and drive operational efficiency within t",
+                "tone": "Neutral",
+                "sentiment_score": 0.14,
+                "raw_probabilities": [
+                    0.01,
+                    0.89,
+                    0.09
+                ]
+            },
+            {
+                "article_index": 11,
+                "title": "Amazon: Anthropic X Microsoft Deal Changes Nothing",
+                "description": "Amazon.com, Inc. stock rated buy with a $310 target\u00e2\u0080\u009440% upside\u00e2\u0080\u0094driven by AWS and Trainium growth. Click for key AMZN insights and why now is a great time to invest.",
+                "tone": "Positive",
+                "sentiment_score": 0.83,
+                "raw_probabilities": [
+                    0.07,
+                    0.35,
+                    0.58
+                ]
+            },
+            {
+                "article_index": 12,
+                "title": "Top Analyst Says Oracle's 'Irresponsible' AI Bet Differs From 'Healthy' Microsoft And Google Demand: A 'Bad Business' With 'Very Low Margins'",
+                "description": "A prominent technology analyst has slammed Oracle Corp.'s (NYSE:ORCL) high-profile AI strategy, labeling it \u201cbad behavior\u201d and an \u201cirresponsible investment\u201d that relies on speculative demand, unlike the \u201chealthy\u201d and established customer-driven AI ...",
+                "tone": "Negative",
+                "sentiment_score": -0.17,
+                "raw_probabilities": [
+                    0.52,
+                    0.42,
+                    0.06
+                ]
+            },
+            {
+                "article_index": 13,
+                "title": "Google plans $40 billion Texas data center investment amid AI boom",
+                "description": "The investment, which will be \u200cmade through 2027, underscores the intensifying competition among AI and cloud service providers to build infrastructure capable of supporting \u200cadvanced AI models.  OpenAI, Microsoft, Meta Platforms and Amazon are among companies spending billions in new AI-focused data centers.  Google said one of the new data centers will be in Armstrong County, in the Texas Panhandle, and the other two in Haskell County, a stretch \u2060of West Texas near Abilene.",
+                "tone": "Neutral",
+                "sentiment_score": 0.03,
+                "raw_probabilities": [
+                    0.02,
+                    0.96,
+                    0.02
+                ]
+            },
+            {
+                "article_index": 14,
+                "title": "Microsoft,\u00a0facing conservative pressure, disavows religion bias",
+                "description": "Alliance Defending Freedom, a legal advocacy group involved in the 2022 overturning of  and landmark cases tied to religious-freedom issues, alleged that Microsoft withheld discounts to ADF itself and to certain other nonprofits, such as groups that don\u2019t hire LGBTQ people for religious reasons and pregnancy resource centers that don\u2019t offer abortions.  Investors represented by ADF planned to use the allegations to urge shareholders to ask Microsoft at its annual meeting on Dec. 5 to prepare a report on its discounting practices.",
+                "tone": "Neutral",
+                "sentiment_score": 0.01,
+                "raw_probabilities": [
+                    0.06,
+                    0.92,
+                    0.03
+                ]
+            },
+            {
+                "article_index": 15,
+                "title": "Nvidia, Palantir, Microsoft Dragged Into AI Scare -- Here's Why Wedbush Says Relax",
+                "description": "AI Turbulence Rattles Silicon Valley, but Wedbush Sees a Breakout Rally Ahead",
+                "tone": "Neutral",
+                "sentiment_score": -0.07,
+                "raw_probabilities": [
+                    0.23,
+                    0.74,
+                    0.03
+                ]
+            },
+            {
+                "article_index": 16,
+                "title": "Levi\u2019s picks Microsoft to deploy \u2018super-agent\u2019",
+                "description": "The apparel giant said it will launch a \"complex agentic framework\" in 2026 that will integrate several sub-agents across IT, HR and operations.",
+                "tone": "Neutral",
+                "sentiment_score": 0.02,
+                "raw_probabilities": [
+                    0.01,
+                    0.97,
+                    0.02
+                ]
+            },
+            {
+                "article_index": 17,
+                "title": "Anthropic to spend $30B in compute through Nvidia and Microsoft",
+                "description": "CNBC's Steve Kovach breaks down the latest news on a new investments from Anthropic, what the spend means for the AI competitive landscape, and more.",
+                "tone": "Neutral",
+                "sentiment_score": 0.07,
+                "raw_probabilities": [
+                    0.01,
+                    0.94,
+                    0.05
+                ]
+            },
+            {
+                "article_index": 18,
+                "title": "Elon Musk has a harsh message for Bill Gates",
+                "description": "Elon Musk just reopened one of his favorite long-time grudges, and, as usual, it was far from a whisper. After the Gates Foundation dumped 65% of its Microsoft (MSFT) stake in Q3 (an estimated $8.8 billion gain), Musk jumped on X (formerly Twitter) to reignite his feud with Bill Gates on his ...",
+                "tone": "Neutral",
+                "sentiment_score": -0.1,
+                "raw_probabilities": [
+                    0.32,
+                    0.65,
+                    0.04
+                ]
+            },
+            {
+                "article_index": 19,
+                "title": "Retrieval-Augmented Generation (RAG) Market Surges to $9.86 billion by 2030 - Dominated by Microsoft (US), Amazon Web Services, Inc. (US), Anthropic (US)",
+                "description": "Delray Beach, FL , Nov. 14, 2025 (GLOBE NEWSWIRE) -- According to MarketsandMarkets\u2122, the global Retrieval-Augmented Generation (RAG) Market is estimated to be USD 1.94 billion in 2025 and is projected to reach USD 9.86 billion by 2030 at a CAGR of 38.4%. Browse in-depth TOC on \"Retrieval-Augmented Generation Market\" 230 - Tables 50 - Figures 350 - Pages Download Report Brochure @ https://www.marketsandmarkets.com/pdfdownloadNew.asp?id=135976317 Retrieval-Augmented Generation Market Dynamics Dri",
+                "tone": "Neutral",
+                "sentiment_score": 0.14,
+                "raw_probabilities": [
+                    0.01,
+                    0.9,
+                    0.1
+                ]
+            }
+        ]
     }
 ]

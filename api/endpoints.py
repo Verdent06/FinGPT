@@ -1,3 +1,4 @@
+#api/endpoints.py
 from fastapi import APIRouter, HTTPException
 from api.models import StockRequest
 from analysis import fundamentals

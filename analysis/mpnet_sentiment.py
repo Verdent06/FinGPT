@@ -1,4 +1,4 @@
-# analysis/sentiment.py
+# analysis/mpnet_sentiment.py
 import numpy as np
 
 def mpnet_analyzer(news_articles, clf, embedder, label_map):
