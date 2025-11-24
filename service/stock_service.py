@@ -16,9 +16,17 @@ class StockAnalysisService:
 
     def __init__(self, models: Dict[str, Any] = None):
         """
-        Initializes the service with loaded ML/LLM models, if provided (for API use).
+        Initializes the service. Models are injected via the 'models' dictionary 
+        (e.g., from FastAPI lifespan) or lazily loaded for CLI use.
         """
         self.models = models if models is not None else {}
+        
+        self.llm = self.models.get("llm")
+        self.clf = self.models.get("clf")
+        self.embedder = self.models.get("embedder")
+        
+        if self.llm is None:
+            self.llm = llm_handler.load_llm()
 
     # ----------------------------------------------------------------------
     # HELPER METHODS (API Endpoint Support)
@@ -43,7 +51,13 @@ class StockAnalysisService:
         }
 
     def get_sentiment_result(self, ticker: str) -> Dict[str, Any]:
-        """Calculates and returns the hybrid news sentiment result."""
+        """Calculates and returns the hybrid news sentiment result using injected models."""
+        
+        if self.clf is None or self.embedder is None:
+            from models import clf_handler, mpnet_embedder
+            self.clf = clf_handler.load_trained_clf()
+            self.embedder = mpnet_embedder.get_embedder()
+        
         info, _ = get_stock_info(ticker.upper())
         company_name = extract_company_name(info.get("longName", ticker))
         raw_news = fetch_company_news(ticker, company_name)
@@ -59,7 +73,14 @@ class StockAnalysisService:
                 "raw_news": []
             }
         
-        sentiment_result = get_hybrid_sentiment(raw_news, ticker)
+        sentiment_result = get_hybrid_sentiment(
+            raw_news, 
+            ticker, 
+            clf=self.clf, 
+            embedder=self.embedder, 
+            llm_instance=self.llm
+        )
+        
         sentiment_result["num_articles"] = len(raw_news)
         sentiment_result["raw_news"] = raw_news
         return sentiment_result

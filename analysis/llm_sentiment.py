@@ -3,8 +3,8 @@ import json
 from models.llm_handler import load_llm
 
 class LLMSentimentAnalyzer:
-    def __init__(self):
-        self.llm = load_llm()
+    def __init__(self, llm_instance):
+        self.llm = llm_instance
 
     def summarize_articles(self, articles):
         """
