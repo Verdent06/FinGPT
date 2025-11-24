@@ -7,6 +7,7 @@ def load_llm():
 
     """
     Load LLaMA 2 model with suppressed stderr to avoid cluttered output.
+    Model path is loaded from the LLAMA_MODEL_PATH environment variable (or config fallback).
     """
 
     model_path=CONFIG["llm"]["model_path"]

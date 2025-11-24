@@ -4,6 +4,7 @@ from fredapi import Fred
 from utils.config_loader import CONFIG
 
 def get_macro_info(api_key=CONFIG["fred"]["api_key"]):
+    """Fetches macroeconomic indicators from FRED."""
     fred = Fred(api_key=api_key)
     unemployment = fred.get_series('UNRATE')[-1]
     cpi = fred.get_series('CPIAUCSL')

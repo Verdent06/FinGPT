@@ -16,6 +16,7 @@ __pycache__/
 # Env files
 .venv/
 *venv/
+.env
 
 # Large data/model files
 data/Sentences_75Agree.txt
