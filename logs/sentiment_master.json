@@ -1018,5 +1018,515 @@
                 ]
             }
         ]
+    },
+    {
+        "timestamp": "20251124_210159",
+        "ticker": "AAPL",
+        "summary": {
+            "mpnet_score": 0.40700000000000003,
+            "llm_score": 0.0,
+            "llm_confidence": 0.0,
+            "combined_score": 0.2849,
+            "combined_label": "Positive",
+            "mpnet_weight": 0.7,
+            "llm_weight": 0.30000000000000004
+        },
+        "articles": [
+            {
+                "article_index": 0,
+                "title": "iPhone 17 Boosts Apple's China Sales: What's Ahead for the Stock?",
+                "description": "AAPL sees surging iPhone momentum in China and eyes double-digit December-quarter growth as Macs and Services strengthen its regional rebound.",
+                "tone": "Positive",
+                "sentiment_score": 1.13,
+                "raw_probabilities": [
+                    0.07,
+                    0.16,
+                    0.77
+                ]
+            },
+            {
+                "article_index": 1,
+                "title": "Alphabet Stock Rallies Toward $4 Trillion Milestone",
+                "description": "Shares of Google parent Alphabet surged Monday morning, putting the Magnificent Seven company less than 5% away from a $4 trillion market capitalization.  The stock's rise of around 9% over two days gives it a market cap of around $3.825 trillion.  The only companies in the $4 trillion club currently are Nvidia, Apple, and Microsoft.",
+                "tone": "Neutral",
+                "sentiment_score": 0.09,
+                "raw_probabilities": [
+                    0.04,
+                    0.89,
+                    0.07
+                ]
+            },
+            {
+                "article_index": 2,
+                "title": "As Wall Street Sounds the Alarm on an AI Bubble, Warren Buffett Is Selling Apple Stock. Should You?",
+                "description": "Warren Buffett\u2019s decision to trim Berkshire\u2019s Apple stake amid growing Wall Street fears of an AI bubble raises the key question of whether investors should follow his lead.",
+                "tone": "Neutral",
+                "sentiment_score": -0.13,
+                "raw_probabilities": [
+                    0.34,
+                    0.63,
+                    0.03
+                ]
+            },
+            {
+                "article_index": 3,
+                "title": "Warner Bros. Discovery pulls CNN content from Apple News as talks over new deal continue",
+                "description": "Move comes as publishers weigh reliance on tech platforms for distribution",
+                "tone": "Neutral",
+                "sentiment_score": 0.06,
+                "raw_probabilities": [
+                    0.14,
+                    0.76,
+                    0.09
+                ]
+            },
+            {
+                "article_index": 4,
+                "title": "Alphabet Is the Mag Seven\u2019s Top Dog of 2025. It\u2019s Nearing Apple\u2019s Market Cap Rank.",
+                "description": "Alphabet isn\u2019t just the best performing Magnificent Seven stock today; it\u2019s the top stock in the group so far this year. Alphabet shares, up 6.2% on Monday, have surged 68% this year. At $3.825 trillion, Alphabet is less than 5% away from a $4 trillion market cap, according to Dow Jones Market Data.",
+                "tone": "Neutral",
+                "sentiment_score": 0.64,
+                "raw_probabilities": [
+                    0.04,
+                    0.52,
+                    0.44
+                ]
+            },
+            {
+                "article_index": 5,
+                "title": "Ranking the Best \"Magnificent Seven\" Stocks to Buy for 2026. Here's My No. 6 Pick.",
+                "description": "Apple has been a phenomenal long-term investment, but its valuation could put pressure on future gains.",
+                "tone": "Positive",
+                "sentiment_score": 0.83,
+                "raw_probabilities": [
+                    0.06,
+                    0.37,
+                    0.58
+                ]
+            },
+            {
+                "article_index": 6,
+                "title": "Fubon expects the first foldable iPhone to cost $2,399",
+                "description": "Investing.com -- Global smartphone demand is set to contract again in 2026, but foldables, and especially Apple\u2019s long-anticipated entry, will provide a rare bright spot, according to a note from Fubon Research.",
+                "tone": "Neutral",
+                "sentiment_score": -0.01,
+                "raw_probabilities": [
+                    0.14,
+                    0.82,
+                    0.04
+                ]
+            },
+            {
+                "article_index": 7,
+                "title": "Prediction: Taiwan Semiconductor Will Be Worth More Than Apple by 2030",
+                "description": "The AI megatrend is benefiting Taiwan Semiconductor in a big way.",
+                "tone": "Positive",
+                "sentiment_score": 1.07,
+                "raw_probabilities": [
+                    0.02,
+                    0.26,
+                    0.72
+                ]
+            },
+            {
+                "article_index": 8,
+                "title": "Tim Cook Gets Ready To Retire, Maybe",
+                "description": "There are rumors that Tim Cook will retire. There are other rumors that he will not. He has led Apple (NASDAQ: AAPL) since 2011, succeeding Steve Jobs. He is 65, which is a traditional retirement age. Cook was not a logical choice. He had run logistics. His job was worldwide operations, ensuring the trains ran on ... Tim Cook Gets Ready To Retire, Maybe",
+                "tone": "Neutral",
+                "sentiment_score": -0.03,
+                "raw_probabilities": [
+                    0.1,
+                    0.88,
+                    0.01
+                ]
+            },
+            {
+                "article_index": 9,
+                "title": "This Is My Favorite Warren Buffett Stock, and It's One of His Biggest Bets (Hint: It's Not Apple or Alphabet)",
+                "description": "Consistently growing its earnings per share at robust double-digit rates, this stock is my favorite of Warren Buffett's investments.",
+                "tone": "Positive",
+                "sentiment_score": 1.14,
+                "raw_probabilities": [
+                    0.01,
+                    0.22,
+                    0.77
+                ]
+            },
+            {
+                "article_index": 10,
+                "title": "Dow Jones Futures, Bitcoin Rise; Nvidia, Apple, Eli Lilly In Focus",
+                "description": "The stock market needs to show a lot of strength after damaging recent losses. Watch Nvidia, Apple and Eli Lilly.",
+                "tone": "Neutral",
+                "sentiment_score": 0.39,
+                "raw_probabilities": [
+                    0.09,
+                    0.62,
+                    0.29
+                ]
+            },
+            {
+                "article_index": 11,
+                "title": "Prediction: These 2 AI Stocks Will Be Worth More Than Apple by Year-End 2026",
+                "description": "Apple is more expensive and growing slower than these other artificial intelligence (AI) stocks.",
+                "tone": "Neutral",
+                "sentiment_score": 0.45,
+                "raw_probabilities": [
+                    0.19,
+                    0.45,
+                    0.36
+                ]
+            },
+            {
+                "article_index": 12,
+                "title": "Mark Gurman Says Tim Cook Likely To Remain As Apple CEO Through At Least Mid-2026",
+                "description": "Bloomberg\u2019s Mark Gurman has shared that Apple Inc. (NASDAQ:AAPL) CEO Tim Cook is likely to retain his position until at least mid-2026, a claim that contradicts earlier reports. What Happened: The Financial Times had earlier reported this month that Apple was gearing up for Cook\u2019s departure \u201cas soon as next year.\u201d This report had triggered speculations about a potential leadership transition ahead of Apple\u2019s annual events. However, Gurman, in his latest \"Power On\u201d report, refuted this claim. Gur",
+                "tone": "Neutral",
+                "sentiment_score": -0.0,
+                "raw_probabilities": [
+                    0.03,
+                    0.96,
+                    0.01
+                ]
+            },
+            {
+                "article_index": 13,
+                "title": "5 Reasons I Still Love Apple Stock, Even After It Soared Higher",
+                "description": "Apple's premium valuation rests on a powerful combination of a strong iPhone cycle and a growing stream of high-margin services revenue.",
+                "tone": "Positive",
+                "sentiment_score": 1.27,
+                "raw_probabilities": [
+                    0.03,
+                    0.11,
+                    0.85
+                ]
+            },
+            {
+                "article_index": 14,
+                "title": "Jim Cramer Believes Apple\u2019s (AAPL) User Base Is Very Important For AI",
+                "description": "We recently published 10 Stocks Jim Cramer Talked About. Apple Inc. (NASDAQ:AAPL) is one of the stocks Jim Cramer discussed. Apple Inc. (NASDAQ:AAPL)\u2019s plans to capitalize on AI developments have generated quite a bit of debate in the media. The discussions have caught Cramer\u2019s attention as well. He commented on them regularly early in the [\u2026]",
+                "tone": "Neutral",
+                "sentiment_score": 0.02,
+                "raw_probabilities": [
+                    0.06,
+                    0.91,
+                    0.03
+                ]
+            },
+            {
+                "article_index": 15,
+                "title": "Where Will Apple Stock Be in 5 Years?",
+                "description": "This consumer tech leader has a great track record of delivering triple-digit returns over five-year periods.",
+                "tone": "Neutral",
+                "sentiment_score": 0.23,
+                "raw_probabilities": [
+                    0.13,
+                    0.68,
+                    0.2
+                ]
+            },
+            {
+                "article_index": 16,
+                "title": "Dow Jones Futures: Stocks Bounce, Nvidia, Apple, Eli Lilly In Focus; Bitcoin The Weak Link?",
+                "description": "The stock market rebounded Friday on Fed rate cut hopes but suffered damaging weekly losses. Nvidia, Apple and Eli Lilly are in focus.",
+                "tone": "Neutral",
+                "sentiment_score": 0.1,
+                "raw_probabilities": [
+                    0.22,
+                    0.64,
+                    0.14
+                ]
+            },
+            {
+                "article_index": 17,
+                "title": "Apple\u2019s presumptive future CEO, John Ternus, has a tough act to follow",
+                "description": "Replacing Tim Cook, who has been at Apple since Steve Jobs hired him in 1998, will be a tall task.",
+                "tone": "Neutral",
+                "sentiment_score": 0.11,
+                "raw_probabilities": [
+                    0.08,
+                    0.82,
+                    0.1
+                ]
+            },
+            {
+                "article_index": 18,
+                "title": "Apple\u2019s \u2018skinny\u2019 iPhone falls flat with disappointing early sales",
+                "description": "Sales of Apple\u2019s iPhone Air, the biggest shake-up to its smartphone design in years, have been worse than expected as consumers opted for better...",
+                "tone": "Neutral",
+                "sentiment_score": 0.24,
+                "raw_probabilities": [
+                    0.33,
+                    0.4,
+                    0.27
+                ]
+            },
+            {
+                "article_index": 19,
+                "title": "Apple: More Catalysts Needed For Material Upside",
+                "description": "Apple posts strong Q4 growth with rising margins, China iPhone 17 strength, AI partnership potential, and innovation focus. See why AAPL stock is a hold.",
+                "tone": "Positive",
+                "sentiment_score": 0.54,
+                "raw_probabilities": [
+                    0.2,
+                    0.37,
+                    0.43
+                ]
+            }
+        ]
+    },
+    {
+        "timestamp": "20251124_213527",
+        "ticker": "AAPL",
+        "summary": {
+            "mpnet_score": 0.40700000000000003,
+            "llm_score": 0.0,
+            "llm_confidence": 0.0,
+            "combined_score": 0.2849,
+            "combined_label": "Positive",
+            "mpnet_weight": 0.7,
+            "llm_weight": 0.30000000000000004
+        },
+        "articles": [
+            {
+                "article_index": 0,
+                "title": "iPhone 17 Boosts Apple's China Sales: What's Ahead for the Stock?",
+                "description": "AAPL sees surging iPhone momentum in China and eyes double-digit December-quarter growth as Macs and Services strengthen its regional rebound.",
+                "tone": "Positive",
+                "sentiment_score": 1.13,
+                "raw_probabilities": [
+                    0.07,
+                    0.16,
+                    0.77
+                ]
+            },
+            {
+                "article_index": 1,
+                "title": "Alphabet Stock Rallies Toward $4 Trillion Milestone",
+                "description": "Shares of Google parent Alphabet surged Monday morning, putting the Magnificent Seven company less than 5% away from a $4 trillion market capitalization.  The stock's rise of around 9% over two days gives it a market cap of around $3.825 trillion.  The only companies in the $4 trillion club currently are Nvidia, Apple, and Microsoft.",
+                "tone": "Neutral",
+                "sentiment_score": 0.09,
+                "raw_probabilities": [
+                    0.04,
+                    0.89,
+                    0.07
+                ]
+            },
+            {
+                "article_index": 2,
+                "title": "As Wall Street Sounds the Alarm on an AI Bubble, Warren Buffett Is Selling Apple Stock. Should You?",
+                "description": "Warren Buffett\u2019s decision to trim Berkshire\u2019s Apple stake amid growing Wall Street fears of an AI bubble raises the key question of whether investors should follow his lead.",
+                "tone": "Neutral",
+                "sentiment_score": -0.13,
+                "raw_probabilities": [
+                    0.34,
+                    0.63,
+                    0.03
+                ]
+            },
+            {
+                "article_index": 3,
+                "title": "Warner Bros. Discovery pulls CNN content from Apple News as talks over new deal continue",
+                "description": "Move comes as publishers weigh reliance on tech platforms for distribution",
+                "tone": "Neutral",
+                "sentiment_score": 0.06,
+                "raw_probabilities": [
+                    0.14,
+                    0.76,
+                    0.09
+                ]
+            },
+            {
+                "article_index": 4,
+                "title": "Alphabet Is the Mag Seven\u2019s Top Dog of 2025. It\u2019s Nearing Apple\u2019s Market Cap Rank.",
+                "description": "Alphabet isn\u2019t just the best performing Magnificent Seven stock today; it\u2019s the top stock in the group so far this year. Alphabet shares, up 6.2% on Monday, have surged 68% this year. At $3.825 trillion, Alphabet is less than 5% away from a $4 trillion market cap, according to Dow Jones Market Data.",
+                "tone": "Neutral",
+                "sentiment_score": 0.64,
+                "raw_probabilities": [
+                    0.04,
+                    0.52,
+                    0.44
+                ]
+            },
+            {
+                "article_index": 5,
+                "title": "Ranking the Best \"Magnificent Seven\" Stocks to Buy for 2026. Here's My No. 6 Pick.",
+                "description": "Apple has been a phenomenal long-term investment, but its valuation could put pressure on future gains.",
+                "tone": "Positive",
+                "sentiment_score": 0.83,
+                "raw_probabilities": [
+                    0.06,
+                    0.37,
+                    0.58
+                ]
+            },
+            {
+                "article_index": 6,
+                "title": "Fubon expects the first foldable iPhone to cost $2,399",
+                "description": "Investing.com -- Global smartphone demand is set to contract again in 2026, but foldables, and especially Apple\u2019s long-anticipated entry, will provide a rare bright spot, according to a note from Fubon Research.",
+                "tone": "Neutral",
+                "sentiment_score": -0.01,
+                "raw_probabilities": [
+                    0.14,
+                    0.82,
+                    0.04
+                ]
+            },
+            {
+                "article_index": 7,
+                "title": "Prediction: Taiwan Semiconductor Will Be Worth More Than Apple by 2030",
+                "description": "The AI megatrend is benefiting Taiwan Semiconductor in a big way.",
+                "tone": "Positive",
+                "sentiment_score": 1.07,
+                "raw_probabilities": [
+                    0.02,
+                    0.26,
+                    0.72
+                ]
+            },
+            {
+                "article_index": 8,
+                "title": "Tim Cook Gets Ready To Retire, Maybe",
+                "description": "There are rumors that Tim Cook will retire. There are other rumors that he will not. He has led Apple (NASDAQ: AAPL) since 2011, succeeding Steve Jobs. He is 65, which is a traditional retirement age. Cook was not a logical choice. He had run logistics. His job was worldwide operations, ensuring the trains ran on ... Tim Cook Gets Ready To Retire, Maybe",
+                "tone": "Neutral",
+                "sentiment_score": -0.03,
+                "raw_probabilities": [
+                    0.1,
+                    0.88,
+                    0.01
+                ]
+            },
+            {
+                "article_index": 9,
+                "title": "This Is My Favorite Warren Buffett Stock, and It's One of His Biggest Bets (Hint: It's Not Apple or Alphabet)",
+                "description": "Consistently growing its earnings per share at robust double-digit rates, this stock is my favorite of Warren Buffett's investments.",
+                "tone": "Positive",
+                "sentiment_score": 1.14,
+                "raw_probabilities": [
+                    0.01,
+                    0.22,
+                    0.77
+                ]
+            },
+            {
+                "article_index": 10,
+                "title": "Dow Jones Futures, Bitcoin Rise; Nvidia, Apple, Eli Lilly In Focus",
+                "description": "The stock market needs to show a lot of strength after damaging recent losses. Watch Nvidia, Apple and Eli Lilly.",
+                "tone": "Neutral",
+                "sentiment_score": 0.39,
+                "raw_probabilities": [
+                    0.09,
+                    0.62,
+                    0.29
+                ]
+            },
+            {
+                "article_index": 11,
+                "title": "Prediction: These 2 AI Stocks Will Be Worth More Than Apple by Year-End 2026",
+                "description": "Apple is more expensive and growing slower than these other artificial intelligence (AI) stocks.",
+                "tone": "Neutral",
+                "sentiment_score": 0.45,
+                "raw_probabilities": [
+                    0.19,
+                    0.45,
+                    0.36
+                ]
+            },
+            {
+                "article_index": 12,
+                "title": "Mark Gurman Says Tim Cook Likely To Remain As Apple CEO Through At Least Mid-2026",
+                "description": "Bloomberg\u2019s Mark Gurman has shared that Apple Inc. (NASDAQ:AAPL) CEO Tim Cook is likely to retain his position until at least mid-2026, a claim that contradicts earlier reports. What Happened: The Financial Times had earlier reported this month that Apple was gearing up for Cook\u2019s departure \u201cas soon as next year.\u201d This report had triggered speculations about a potential leadership transition ahead of Apple\u2019s annual events. However, Gurman, in his latest \"Power On\u201d report, refuted this claim. Gur",
+                "tone": "Neutral",
+                "sentiment_score": -0.0,
+                "raw_probabilities": [
+                    0.03,
+                    0.96,
+                    0.01
+                ]
+            },
+            {
+                "article_index": 13,
+                "title": "5 Reasons I Still Love Apple Stock, Even After It Soared Higher",
+                "description": "Apple's premium valuation rests on a powerful combination of a strong iPhone cycle and a growing stream of high-margin services revenue.",
+                "tone": "Positive",
+                "sentiment_score": 1.27,
+                "raw_probabilities": [
+                    0.03,
+                    0.11,
+                    0.85
+                ]
+            },
+            {
+                "article_index": 14,
+                "title": "Jim Cramer Believes Apple\u2019s (AAPL) User Base Is Very Important For AI",
+                "description": "We recently published 10 Stocks Jim Cramer Talked About. Apple Inc. (NASDAQ:AAPL) is one of the stocks Jim Cramer discussed. Apple Inc. (NASDAQ:AAPL)\u2019s plans to capitalize on AI developments have generated quite a bit of debate in the media. The discussions have caught Cramer\u2019s attention as well. He commented on them regularly early in the [\u2026]",
+                "tone": "Neutral",
+                "sentiment_score": 0.02,
+                "raw_probabilities": [
+                    0.06,
+                    0.91,
+                    0.03
+                ]
+            },
+            {
+                "article_index": 15,
+                "title": "Where Will Apple Stock Be in 5 Years?",
+                "description": "This consumer tech leader has a great track record of delivering triple-digit returns over five-year periods.",
+                "tone": "Neutral",
+                "sentiment_score": 0.23,
+                "raw_probabilities": [
+                    0.13,
+                    0.68,
+                    0.2
+                ]
+            },
+            {
+                "article_index": 16,
+                "title": "Dow Jones Futures: Stocks Bounce, Nvidia, Apple, Eli Lilly In Focus; Bitcoin The Weak Link?",
+                "description": "The stock market rebounded Friday on Fed rate cut hopes but suffered damaging weekly losses. Nvidia, Apple and Eli Lilly are in focus.",
+                "tone": "Neutral",
+                "sentiment_score": 0.1,
+                "raw_probabilities": [
+                    0.22,
+                    0.64,
+                    0.14
+                ]
+            },
+            {
+                "article_index": 17,
+                "title": "Apple\u2019s presumptive future CEO, John Ternus, has a tough act to follow",
+                "description": "Replacing Tim Cook, who has been at Apple since Steve Jobs hired him in 1998, will be a tall task.",
+                "tone": "Neutral",
+                "sentiment_score": 0.11,
+                "raw_probabilities": [
+                    0.08,
+                    0.82,
+                    0.1
+                ]
+            },
+            {
+                "article_index": 18,
+                "title": "Apple\u2019s \u2018skinny\u2019 iPhone falls flat with disappointing early sales",
+                "description": "Sales of Apple\u2019s iPhone Air, the biggest shake-up to its smartphone design in years, have been worse than expected as consumers opted for better...",
+                "tone": "Neutral",
+                "sentiment_score": 0.24,
+                "raw_probabilities": [
+                    0.33,
+                    0.4,
+                    0.27
+                ]
+            },
+            {
+                "article_index": 19,
+                "title": "Apple: More Catalysts Needed For Material Upside",
+                "description": "Apple posts strong Q4 growth with rising margins, China iPhone 17 strength, AI partnership potential, and innovation focus. See why AAPL stock is a hold.",
+                "tone": "Positive",
+                "sentiment_score": 0.54,
+                "raw_probabilities": [
+                    0.2,
+                    0.37,
+                    0.43
+                ]
+            }
+        ]
     }
 ]

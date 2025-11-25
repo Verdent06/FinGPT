@@ -1,7 +1,6 @@
 # data/news_handler.py
 import finnhub
 from datetime import date, timedelta
-import random
 from utils.config_loader import CONFIG
 
 def fetch_company_news(ticker, company_name, api_key = CONFIG["finnhub"]["api_key"] , max_articles=20):
@@ -31,20 +30,11 @@ def fetch_company_news(ticker, company_name, api_key = CONFIG["finnhub"]["api_ke
                     "date": art.get("datetime", 0)
                 })
 
-    # Sort by date descending
     news_articles.sort(key=lambda x: x["date"], reverse=True)
 
-    # Shuffle older news for randomness
-    random.seed(42)
     if len(news_articles) > max_articles:
-        split_recent = int(max_articles * 0.6)
-        recent_news = news_articles[:split_recent]
-        older_news = news_articles[split_recent:]
-        random.shuffle(older_news)
-        selected_older = older_news[:max_articles - split_recent]
-        news_articles = recent_news + selected_older
+        news_articles = news_articles[:max_articles]
 
-    # Convert timestamps to YYYY-MM-DD
     for n in news_articles:
         if isinstance(n["date"], (int, float)):
             n["date"] = date.fromtimestamp(n["date"]).strftime("%Y-%m-%d")

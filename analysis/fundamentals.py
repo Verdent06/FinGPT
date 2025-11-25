@@ -20,8 +20,23 @@ def calc_earnings_growth(stock):
     return E_combined
 
 # Valuation (V)
-def calc_valuation(stock, sector):
+def calc_valuation(stock, sector, sector_peer_pes: list):
     info = stock.info
+    
+    # REMOVED: The expensive loop that fetched peer data via yfinance is GONE.
+    sector_pes = [pe for pe in sector_peer_pes if pe and pe > 0]
+    dynamic_sector_pe = np.mean(sector_pes) if sector_pes else 25
+    
+    pe_forward = info.get("forwardPE")
+    pe_trailing = info.get("trailingPE")
+    pe = pe_forward if pe_forward and pe_forward > 0 else (pe_trailing if pe_trailing and pe_trailing > 0 else dynamic_sector_pe)
+    
+    V = np.clip(dynamic_sector_pe / pe, 0, 1)
+    return V
+
+#Centralized helper to fetch peer data for the sector
+def fetch_sector_peer_pes(sector: str) -> list:
+    """Fetches trailing P/E ratios for all peer tickers in the sector."""
     sector_pes = []
     for t in sector_tickers_map.get(sector, []):
         try:
@@ -31,14 +46,7 @@ def calc_valuation(stock, sector):
                 sector_pes.append(pe_t)
         except:
             continue
-    dynamic_sector_pe = np.mean(sector_pes) if sector_pes else 25
-    
-    pe_forward = info.get("forwardPE")
-    pe_trailing = info.get("trailingPE")
-    pe = pe_forward if pe_forward and pe_forward > 0 else (pe_trailing if pe_trailing and pe_trailing > 0 else dynamic_sector_pe)
-    
-    V = np.clip(dynamic_sector_pe / pe, 0, 1)
-    return V
+    return sector_pes
 
 # Momentum Stability (M)
 def calc_momentum(hist, hist_etf):
@@ -98,6 +106,9 @@ def get_fundamentals(ticker: str):
     if not sector:
         sector = "Unknown"
 
+    # CRITICAL ADDITION: Pre-fetch peer P/E ratios once
+    sector_peer_pes = fetch_sector_peer_pes(sector)
+
     # Load sector ETF
     etf_ticker = sector_etf_map.get(sector, None)
     if etf_ticker:
@@ -110,7 +121,8 @@ def get_fundamentals(ticker: str):
 
     # Calculate all components
     E = calc_earnings_growth(stock)
-    V = calc_valuation(stock, sector)
+    # MODIFIED CALL: Pass pre-fetched peer data
+    V = calc_valuation(stock, sector, sector_peer_pes) 
     M = calc_momentum(hist, hist_etf)
     A = calc_analyst_sentiment(stock)
     S = calc_sector_health(hist_etf)

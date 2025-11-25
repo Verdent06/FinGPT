@@ -140,11 +140,9 @@ class StockAnalysisService:
             macro_score
         )
 
-        llm = llm_handler.load_llm()
         llm_score, llm_recommendation, llm_justification = llm_handler.get_llm_recommendation(
-            llm, ticker, info, fundamentals_dict, final_score, news_sentiment, macro_score, company_name
+            self.llm, ticker, info, fundamentals_dict, final_score, news_sentiment, macro_score, company_name
         )
-        llm.close()
 
         # 5. Combine Scores
         final_combined_score = 0.8 * final_score + 0.2 * llm_score
