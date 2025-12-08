@@ -23,5 +23,5 @@ data/Sentences_75Agree.txt
 models/trained_financial_clf.pkl
 
 #sensitive files
-stock_info.py
+Original_stock_app.py
 config.json

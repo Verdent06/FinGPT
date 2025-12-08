@@ -5863,5 +5863,257 @@
                 ]
             }
         ]
+    },
+    {
+        "timestamp": "20251207_220933",
+        "ticker": "AAPL",
+        "summary": {
+            "mpnet_score": 0.35350000000000004,
+            "llm_score": 0.4455000000000001,
+            "combined_score": 0.38110000000000005,
+            "combined_label": "Buy"
+        },
+        "articles": [
+            {
+                "article_index": 0,
+                "title": "Apple's executive exodus sends a signal about its AI strategy",
+                "description": "A number of executives are departing Apple. At least some of them are related to its AI strategy.",
+                "tone": "Neutral",
+                "sentiment_score": -0.03,
+                "raw_probabilities": [
+                    0.14,
+                    0.83,
+                    0.03
+                ]
+            },
+            {
+                "article_index": 1,
+                "title": "Prediction: These 3 Stocks Could Be Worth More Than Apple 3 Years From Now",
+                "description": "High valuation metrics prop up Apple's market valuation.",
+                "tone": "Positive",
+                "sentiment_score": 1.0,
+                "raw_probabilities": [
+                    0.11,
+                    0.19,
+                    0.7
+                ]
+            },
+            {
+                "article_index": 2,
+                "title": "Pixalate\u2019s Q3 2025 Report Uncovers 1,248 APAC-Registered Mobile Apps Across Apple App & Google Play Stores Violating COPPA, Impacting 117 Million Child-App Users in USA",
+                "description": "According to new research from Pixalate, 962 apps failed to provide the requisite \u2018children\u2019s privacy\u2019 disclosure as specified under COPPA; Out of 1,003 APAC-registered, ad-enabled, child-directed mobile apps analyzed, 1,001 (99%) failed to obtain a Verifiable Parent Consent (VPC)LONDON, Dec. 07, 2025 (GLOBE NEWSWIRE) -- Pixalate today released the Q3 2025 State of Children\u2019s Privacy Risk Report for Asia-Pacific (APAC) Mobile Apps. The analysis reveals significant privacy gaps in mobile apps ava",
+                "tone": "Neutral",
+                "sentiment_score": 0.02,
+                "raw_probabilities": [
+                    0.03,
+                    0.95,
+                    0.02
+                ]
+            },
+            {
+                "article_index": 3,
+                "title": "1 Unstoppable Stock to Buy Before It Joins Nvidia, Apple, Microsoft, and Alphabet in the $3 Trillion Club",
+                "description": "Amazon isn't far from joining the $3 trillion club.",
+                "tone": "Neutral",
+                "sentiment_score": 0.55,
+                "raw_probabilities": [
+                    0.06,
+                    0.55,
+                    0.39
+                ]
+            },
+            {
+                "article_index": 4,
+                "title": "Here's Why Apple Is My Second Biggest Holding Going Into 2026",
+                "description": "The stock may be underperforming this year. But that could change in 2026.",
+                "tone": "Neutral",
+                "sentiment_score": 0.58,
+                "raw_probabilities": [
+                    0.07,
+                    0.52,
+                    0.41
+                ]
+            },
+            {
+                "article_index": 5,
+                "title": "Why Apple's Momentum Isn't Accidental",
+                "description": "Apple\u00e2\u0080\u0099s Services grew 15% YoY to $28.8B with strong device demand, high margins, and AI-driven CapEx fueling long-term profitability. Read why AAPL stock is a buy.",
+                "tone": "Positive",
+                "sentiment_score": 1.37,
+                "raw_probabilities": [
+                    0.02,
+                    0.06,
+                    0.92
+                ]
+            },
+            {
+                "article_index": 6,
+                "title": "Apple (AAPL) Earns $320 Target as Services Strength Offsets App Store Slowdown",
+                "description": "Apple Inc. (NASDAQ:AAPL) is one of the AI Stocks Analysts are Tracking Closely. On December 3, Goldman Sachs maintained its Buy rating on the stock with a $320.00 price target. The rating affirmation is driven by an optimistic outlook on broad-based Services growth despite near-term App Store softness. As per Sensor Tower data, Apple App [\u2026]",
+                "tone": "Neutral",
+                "sentiment_score": 0.38,
+                "raw_probabilities": [
+                    0.11,
+                    0.6,
+                    0.29
+                ]
+            },
+            {
+                "article_index": 7,
+                "title": "What the heck is going on at Apple?",
+                "description": "Apple for decades has been known for a consistent string of design-forward, tech-defining consumer products that have shaped how people use technology.",
+                "tone": "Neutral",
+                "sentiment_score": 0.17,
+                "raw_probabilities": [
+                    0.17,
+                    0.66,
+                    0.17
+                ]
+            },
+            {
+                "article_index": 8,
+                "title": "Apple Stock Can Rise on Services Segment, Says Analyst. Plus, Uber, American Eagle, and More.",
+                "description": "RESEARCH REPORTS These reports, excerpted and edited by Barron\u2019s, were issued recently by investment and research firms. The reports are a sampling of analysts\u2019 thinking; they should not be considered the views or recommendations of Barron\u2019s.",
+                "tone": "Positive",
+                "sentiment_score": 0.97,
+                "raw_probabilities": [
+                    0.08,
+                    0.25,
+                    0.67
+                ]
+            },
+            {
+                "article_index": 9,
+                "title": "Google Must Limit Default Contracts to One Year, Judge Rules",
+                "description": "Judge Amit Mehta in Washington sided with the US Justice Department on the one year limitation in his final ruling on what changes the search giant must make in the wake of a landmark ruling that the company illegally monopolized online search.  The final judgment will still allow Google to offer its products to Apple Inc. for use in its popular iPhone and pay other electronics makers like Samsung Electronics Co. for default placement.  Mehta noted in his ruling that both Google and the US government said they could work with the one-year limitation on default contracts.",
+                "tone": "Neutral",
+                "sentiment_score": 0.09,
+                "raw_probabilities": [
+                    0.14,
+                    0.75,
+                    0.11
+                ]
+            },
+            {
+                "article_index": 10,
+                "title": "Apple Inc. (AAPL): A Bull Case Theory",
+                "description": "We came across a bullish thesis on Apple Inc. on Compounding Your Wealth\u2019s Substack by Sergey. In this article, we will summarize the bulls\u2019 thesis on AAPL. Apple Inc.\u2019s share was trading at $283.10 as of December 1st. AAPL\u2019s trailing and forward P/E were 37.95 and 34.13 respectively according to Yahoo Finance. Apple delivered a strong fiscal third [\u2026]",
+                "tone": "Neutral",
+                "sentiment_score": 0.33,
+                "raw_probabilities": [
+                    0.07,
+                    0.69,
+                    0.24
+                ]
+            },
+            {
+                "article_index": 11,
+                "title": "Meta acquires\u00a0AI-wearables startup Limitless",
+                "description": "Meta has acquired AI-wearables startup Limitless, maker of a pendant-style device that records and transcribes \u200breal-world conversations, as the social media giant doubles down on \u200cefforts to build AI-enabled consumer hardware.  Earlier this week, Meta hired \u200dlongtime Apple  design executive Alan Dye, a move widely seen as sharpening its focus on next-generation devices.  Meta plans to use Limitless' technical capabilities as part of \u200bits development of next-generation AI-enabled wearables.",
+                "tone": "Neutral",
+                "sentiment_score": 0.03,
+                "raw_probabilities": [
+                    0.0,
+                    0.97,
+                    0.02
+                ]
+            },
+            {
+                "article_index": 12,
+                "title": "Meet the Supercharged Growth Stock That Could Join Apple, Nvidia, Microsoft, and Alphabet in the $2 Trillion Club by 2028",
+                "description": "Eli Lilly's stock price and market cap are poised to explode with the GLP-1 market.",
+                "tone": "Positive",
+                "sentiment_score": 0.76,
+                "raw_probabilities": [
+                    0.04,
+                    0.44,
+                    0.52
+                ]
+            },
+            {
+                "article_index": 13,
+                "title": "Apple Made a Comeback with the iPhone 17, But Will Executive Exits Pull Down AAPL Stock?",
+                "description": "Apple stock has rebounded after its iPhone 17 helped buoy sales. The company recently saw a flurry of executive exits, but its 2026 outlook looks reasonably positive.",
+                "tone": "Negative",
+                "sentiment_score": -0.34,
+                "raw_probabilities": [
+                    0.87,
+                    0.07,
+                    0.06
+                ]
+            },
+            {
+                "article_index": 14,
+                "title": "Netflix to acquire Warner Bros., more executive departures at Apple",
+                "description": "Morning Brief anchor Julie Hyman breaks down the latest market news for December 5, 2025. Netflix (NFLX) announced it is buying Warner Bros. Discovery's (WBD) studios and streaming unit in a deal valued at nearly $83 billion. Citi media and entertainment senior analyst Jason Bazinet shares his take on the deal. Meanwhile, more top executives are leaving Apple (AAPL). Yahoo Finance Tech Editor Dan Howley helps make sense of the latest departures.\u00a0 To watch more expert insights and analysis on the latest market action, check out more Morning Brief.",
+                "tone": "Neutral",
+                "sentiment_score": 0.04,
+                "raw_probabilities": [
+                    0.06,
+                    0.9,
+                    0.05
+                ]
+            },
+            {
+                "article_index": 15,
+                "title": "Still love Netflix long-term despite near-term pressure from WBD deal: G Squared's Victoria Greene",
+                "description": "Victoria Greene, G Squared Wealth, joins 'The Exchange' to discuss Greene's investing take on these three stocks: Netflix, Alphabet and Apple.",
+                "tone": "Neutral",
+                "sentiment_score": 0.18,
+                "raw_probabilities": [
+                    0.05,
+                    0.81,
+                    0.14
+                ]
+            },
+            {
+                "article_index": 16,
+                "title": "Apple Reaches All-Time High This Week -- Proves It's Still in AI Race",
+                "description": "Apple's Monster Rally Returns It to Market Leadership as Siri Overhaul Slips",
+                "tone": "Positive",
+                "sentiment_score": 0.98,
+                "raw_probabilities": [
+                    0.04,
+                    0.29,
+                    0.67
+                ]
+            },
+            {
+                "article_index": 17,
+                "title": "Apple Warns Users in 84 Countries of New Cyber Threat Activity",
+                "description": "Apple expands global warnings tied to suspected state-backed hacking attempts.",
+                "tone": "Neutral",
+                "sentiment_score": -0.0,
+                "raw_probabilities": [
+                    0.17,
+                    0.77,
+                    0.06
+                ]
+            },
+            {
+                "article_index": 18,
+                "title": "What Apple's executive departures mean for the iPhone maker",
+                "description": "Apple (AAPL) has seen several top executives depart the company recently. Some retired, such as senior vice president of hardware engineering John Ternu (who many expected would succeed Apple CEO Tim Cook), while others were poached by Meta (META), like veteran designers Alan Dye and Billy Sorrentino. Yahoo Finance Tech Editor Dan Howley outlines the details and examines what the executive changes signal about Apple. To watch more expert insights and analysis on the latest market action, check out more Morning Brief.",
+                "tone": "Neutral",
+                "sentiment_score": -0.01,
+                "raw_probabilities": [
+                    0.15,
+                    0.82,
+                    0.04
+                ]
+            },
+            {
+                "article_index": 19,
+                "title": "India weighs greater phone-location surveillance; tech giants protest",
+                "description": "STORY: India is reviewing a proposal about greater phone-location surveillance.That's according to documents, emails and five sources.The pitch is from the telecom industry to force smartphone firms to enable satellite location tracking.Tech majors, including Apple, Google and Samsung have all opposed the move due to privacy concerns.Prime Minister Narendra Modi's government this week pulled back from forcing smartphone makers to preload a state-run cyber safety app on all devices.Activists and politicians had raised privacy worries about potential snooping.The Modi administration has been concerned for years its agencies don't get precise locations when legal requests are made to telecom firms during investigations.The current system only allows companies to use cellular tower data.That only provides an estimated area location, which can be off by several meters.An email showed a leading Indian telecoms trade body proposed precise user locations should only be provided if authorities order smartphone makers to activate A-GPS technology.It would require location services to always be activated in smartphones with no option for users to disable them.Sources said Apple, Samsung and Alphabet's Google have told New Delhi it shouldn't be mandated.India's IT and home ministries are both analyzing the telecom industry's proposal and\u00a0didn't respond to Reuters questions.",
+                "tone": "Neutral",
+                "sentiment_score": 0.0,
+                "raw_probabilities": [
+                    0.01,
+                    0.98,
+                    0.01
+                ]
+            }
+        ]
     }
 ]

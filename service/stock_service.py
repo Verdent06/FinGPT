@@ -2,11 +2,13 @@ import yfinance as yf
 from typing import Dict, Any
 from analysis.fundamentals import get_fundamentals
 from analysis.macro import get_macro_info, calc_macro_score
-from analysis.score_calculator import get_hybrid_sentiment, calculate_final_score, get_recommendation_label
+# FIX 1: Import calculate_fundamental_score
+from analysis.score_calculator import get_hybrid_sentiment, calculate_final_score, get_recommendation_label, calculate_fundamental_score
 from data.news_handler import fetch_company_news
 from data.yahoo_handler import get_stock_info
 from utils.helpers import extract_company_name
 from models import llm_handler
+from data.training_manager import log_training_example
 
 class StockAnalysisService:
     """
@@ -39,7 +41,6 @@ class StockAnalysisService:
     def get_macro_data(self) -> Dict[str, Any]:
         """
         Fetches macroeconomic indicators and calculates the macro score.
-        FIX: Corrected the variable name typo here.
         """
         indicators = get_macro_info()
         macro_score = calc_macro_score(indicators)
@@ -91,16 +92,17 @@ class StockAnalysisService:
         macro_data = self.get_macro_data()
         sentiment_result = self.get_sentiment_result(ticker)
         
-        final_score, recommendation = calculate_final_score(
+        # FIX 2: Calculate scores separately
+        final_score = calculate_final_score(
             fundamentals_dict, 
             sentiment_result["combined_score"], 
             macro_data["score"]
         )
         
-        fundamental_score = (fundamentals_dict["E"]*0.4 + fundamentals_dict["V"]*0.2 + 
-                             fundamentals_dict["M"]*0.15 + fundamentals_dict["A"]*0.1 + 
-                             fundamentals_dict["C"]*0.05 + fundamentals_dict["S"]*0.1)
-
+        fundamental_score = calculate_fundamental_score(fundamentals_dict)
+        
+        recommendation = get_recommendation_label(final_score)
+        
         return {
             "final_score": float(final_score),
             "recommendation": recommendation,
@@ -118,7 +120,6 @@ class StockAnalysisService:
     def analyze_stock(self, ticker: str) -> Dict[str, Any]:
         """
         Performs a full analysis and generates all scores/recommendations.
-        Refactored to use helper methods for cleaner orchestration.
         """
         ticker = ticker.upper()
 
@@ -134,6 +135,7 @@ class StockAnalysisService:
         news_sentiment = sentiment_data["combined_score"]
         raw_news = sentiment_data["raw_news"]
 
+        # FIX 3: Get final score (single float)
         final_score = calculate_final_score(
             fundamentals_dict, 
             news_sentiment, 
@@ -144,7 +146,21 @@ class StockAnalysisService:
             self.llm, ticker, info, fundamentals_dict, final_score, news_sentiment, macro_score, company_name
         )
 
-        # 5. Combine Scores
+        # FIX 4: Get fundamental score using specific function
+        f_score_val = calculate_fundamental_score(fundamentals_dict)
+
+        # FIX 5: Remove tuple unpacking that caused the error
+        log_training_example(
+            ticker=ticker,
+            fund_score=f_score_val,
+            mpnet_score=sentiment_data["mpnet_score"],
+            llm_score=sentiment_data.get("llm_score", 0), # Use safer .get()
+            macro_score=macro_score,
+            current_price=info.get("currentPrice", 0)
+        )
+
+        # 6. Combine Scores
+        # This will now work because final_score is definitely a float
         final_combined_score = 0.8 * final_score + 0.2 * llm_score
 
         final_recommendation = get_recommendation_label(final_combined_score)
@@ -168,8 +184,9 @@ class StockAnalysisService:
             "final_combined_score": float(final_combined_score),
             "recommendation": final_recommendation,
             "analysis": llm_analysis,
+            "raw_data": {
                 "current_price": info.get("currentPrice"),
                 "market_cap": info.get("marketCap"),
                 "pe_ratio": info.get("trailingPE")
             }
-        
+        }
