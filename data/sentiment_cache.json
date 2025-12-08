@@ -198,5 +198,205 @@
         "score": 0.0,
         "confidence": 0.9,
         "label": "Neutral"
+    },
+    "98e39a9f41162dc8045e48d9ae934099": {
+        "score": 0.9,
+        "confidence": 0.9,
+        "label": "Positive"
+    },
+    "123d0e2057cd7bccd8b068407823b22e": {
+        "score": -0.8,
+        "confidence": 0.9,
+        "label": "Negative"
+    },
+    "ea8347d11b68af5b68144df306ef5b8f": {
+        "score": 0.0,
+        "confidence": 0.9,
+        "label": "Neutral"
+    },
+    "190270b2b0e2e0355d9a0663be301acb": {
+        "score": 0.0,
+        "confidence": 0.9,
+        "label": "Neutral"
+    },
+    "6156a37452773798d2f64b7b33785cc6": {
+        "score": 0.0,
+        "confidence": 0.9,
+        "label": "Neutral"
+    },
+    "9a26ac5e7605d6dbaf9747992338ae25": {
+        "score": 0.9,
+        "confidence": 0.9,
+        "label": "Positive"
+    },
+    "6fc34c71bb811927ce1ec40801187501": {
+        "score": 0.9,
+        "confidence": 0.9,
+        "label": "Positive"
+    },
+    "33e174a4a3920872a94cc97b0ca8c953": {
+        "score": 0.0,
+        "confidence": 0.9,
+        "label": "Neutral"
+    },
+    "8c55297a11f284aad4b775bbf324b925": {
+        "score": 0.0,
+        "confidence": 0.9,
+        "label": "Neutral"
+    },
+    "e10d414481091bc1039fc59a10f4c6cf": {
+        "score": 0.9,
+        "confidence": 0.9,
+        "label": "Positive"
+    },
+    "5069ec2df0a4a9978b97019cd001b75a": {
+        "score": 0.9,
+        "confidence": 0.9,
+        "label": "Positive"
+    },
+    "7dae872ea5a601d9b2e286734f61126c": {
+        "score": 0.9,
+        "confidence": 0.9,
+        "label": "Positive"
+    },
+    "66947493d327f40b3c20de363b17c604": {
+        "score": 0.0,
+        "confidence": 0.9,
+        "label": "Neutral"
+    },
+    "15eba6dc9d9d6c6ffc869888547bc3e3": {
+        "score": -0.8,
+        "confidence": 0.9,
+        "label": "Negative"
+    },
+    "4501e57c78992d7c20d17b3a52f92240": {
+        "score": 0.0,
+        "confidence": 0.9,
+        "label": "Neutral"
+    },
+    "23cd7907f20b48f567f209682ac75d0a": {
+        "score": 0.0,
+        "confidence": 0.9,
+        "label": "Neutral"
+    },
+    "1fb6f833e7063954c2a100d9a8f86641": {
+        "score": 0.5,
+        "confidence": 0.9,
+        "label": "Neutral"
+    },
+    "61325a84eb10870a69d62a148b0f617b": {
+        "score": 0.0,
+        "confidence": 0.9,
+        "label": "Neutral"
+    },
+    "5f650f5803d0635082088d0bc92b0622": {
+        "score": 0.0,
+        "confidence": 0.9,
+        "label": "Neutral"
+    },
+    "787a1856db5c13230426f75305ade871": {
+        "score": 0.9,
+        "confidence": 0.9,
+        "label": "Positive"
+    },
+    "f84bb853a05db85fb187106a2611bd95": {
+        "score": 0.9,
+        "confidence": 0.9,
+        "label": "Positive"
+    },
+    "965f377b03409308221466c6f5fd8c6a": {
+        "score": 0.0,
+        "confidence": 0.9,
+        "label": "Neutral"
+    },
+    "7735d80b925ba9a38083a9248d376598": {
+        "score": 0.0,
+        "confidence": 0.9,
+        "label": "Neutral"
+    },
+    "2a124b6b1b4729a09bb9fe4505c182c3": {
+        "score": 0.0,
+        "confidence": 0.9,
+        "label": "Neutral"
+    },
+    "2b37300ae7d49c70ed4193e9a74792df": {
+        "score": 0.9,
+        "confidence": 0.9,
+        "label": "Positive"
+    },
+    "2d6e482901d9f1c9bf4944c334cf1cc8": {
+        "score": 0.9,
+        "confidence": 0.9,
+        "label": "Positive"
+    },
+    "e9ebe71a0333518334bcd5196bcaca52": {
+        "score": 0.0,
+        "confidence": 0.9,
+        "label": "Neutral"
+    },
+    "89d00126fc3ef03739e2750e40a20615": {
+        "score": 0.9,
+        "confidence": 0.9,
+        "label": "Positive"
+    },
+    "baef683bdbe70855ab955e7c0bd0d996": {
+        "score": 0.9,
+        "confidence": 0.9,
+        "label": "Positive"
+    },
+    "93d70b8edc56cc1cfcf0d39c50240099": {
+        "score": 0.9,
+        "confidence": 0.9,
+        "label": "Positive"
+    },
+    "66055c36cd4bfa7d67c33fdc480c808e": {
+        "score": 0.9,
+        "confidence": 0.9,
+        "label": "Positive"
+    },
+    "7a52523c32b1bacaeeea40864199557f": {
+        "score": 0.0,
+        "confidence": 0.9,
+        "label": "Neutral"
+    },
+    "941142d3a1f71ecc8105f950bba06a9d": {
+        "score": 0.5,
+        "confidence": 0.9,
+        "label": "Neutral"
+    },
+    "b06372a3d2abdfbd0ecd54f5867fa875": {
+        "score": 0.0,
+        "confidence": 0.9,
+        "label": "Neutral"
+    },
+    "7c8f72aab0fb315563ebd0f8da24bcf9": {
+        "score": 0.8,
+        "confidence": 0.9,
+        "label": "Positive"
+    },
+    "428f4511726768ee7ed1322c5fc92617": {
+        "score": 0.9,
+        "confidence": 0.9,
+        "label": "Positive"
+    },
+    "d964a8d6e5c9dacfa66004d62c71b3df": {
+        "score": 0.9,
+        "confidence": 0.9,
+        "label": "Positive"
+    },
+    "a0a945fd7b9a20929f71ce6a4c72a09a": {
+        "score": 0.9,
+        "confidence": 0.9,
+        "label": "Positive"
+    },
+    "1e1a6dae1a9ed4463fcc98a8261364a2": {
+        "score": 0.8,
+        "confidence": 0.9,
+        "label": "Positive"
+    },
+    "3c90207a5afb04b2877d2e968ce91624": {
+        "score": 0.9,
+        "confidence": 0.9,
+        "label": "Positive"
     }
 }

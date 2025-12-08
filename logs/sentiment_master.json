@@ -6115,5 +6115,509 @@
                 ]
             }
         ]
+    },
+    {
+        "timestamp": "20251207_221659",
+        "ticker": "LULU",
+        "summary": {
+            "mpnet_score": 0.195,
+            "llm_score": 0.23399999999999999,
+            "combined_score": 0.2067,
+            "combined_label": "Hold"
+        },
+        "articles": [
+            {
+                "article_index": 0,
+                "title": "Is LULU a Buy Right Now?",
+                "description": "Lululemon Athletica's stock price has plummeted this year, but a comeback might be in the works.",
+                "tone": "Positive",
+                "sentiment_score": 0.57,
+                "raw_probabilities": [
+                    0.2,
+                    0.35,
+                    0.45
+                ]
+            },
+            {
+                "article_index": 1,
+                "title": "Lululemon (LULU): Reassessing Valuation After Mixed Quarter, Lower Guidance and Margin Pressure from New Tariffs",
+                "description": "Lululemon athletica (LULU) just delivered a mixed quarter that is stirring up fresh debate, with healthy international growth offset by sluggish U.S. demand, weaker same store sales, and a cut to full year revenue guidance. See our latest analysis for lululemon athletica. The latest quarter comes after a bruising stretch, with the 1 year total shareholder return down about 52 percent. At the same time, a recent 1 month share price return of roughly 13 percent hints that pessimism might be...",
+                "tone": "Negative",
+                "sentiment_score": 0.03,
+                "raw_probabilities": [
+                    0.54,
+                    0.25,
+                    0.2
+                ]
+            },
+            {
+                "article_index": 2,
+                "title": "lululemon athletica inc. (LULU): A\u00a0Bull\u00a0Case Theory",
+                "description": "We came across a bullish thesis on lululemon athletica inc. on The Analyst\u2019s Journal\u2019s Substack by A_Capital. In this article, we will summarize the bulls\u2019 thesis on LULU. lululemon athletica inc.\u2019s share was trading at $184.18 as of November 28th. LULU\u2019s trailing and forward P/E were 12.57 and 13.72 respectively according to Yahoo Finance. lululemon athletica inc., together [\u2026]",
+                "tone": "Neutral",
+                "sentiment_score": 0.18,
+                "raw_probabilities": [
+                    0.15,
+                    0.68,
+                    0.17
+                ]
+            },
+            {
+                "article_index": 3,
+                "title": "Zacks Investment Ideas feature highlights: Lululemon Athletica and Nike",
+                "description": "LULU heads into its Q3 EPS report after a 50% slide, with tariffs, competition and slowing North America demand pressuring the story.",
+                "tone": "Neutral",
+                "sentiment_score": 0.55,
+                "raw_probabilities": [
+                    0.09,
+                    0.51,
+                    0.4
+                ]
+            },
+            {
+                "article_index": 4,
+                "title": "Is Lululemon Athletica Stock Underperforming the Nasdaq?",
+                "description": "Lululemon Athletica has significantly underperformed the Nasdaq Composite over the past year, and analysts remain cautious about the stock\u2019s prospects.",
+                "tone": "Negative",
+                "sentiment_score": -0.25,
+                "raw_probabilities": [
+                    0.83,
+                    0.06,
+                    0.11
+                ]
+            },
+            {
+                "article_index": 5,
+                "title": "Is Lululemon a Bargain After a 51% Slide and DCF Upside in 2025?",
+                "description": "If you have been wondering whether lululemon athletica at around $182 a share is now a bargain or a value trap, you are not alone. This breakdown aims to answer exactly that. The stock has bounced about 10.2% over the last month and is slightly up over the past week, but it is still down 51.0% year to date and 46.7% over the last year. This suggests the market is still reassessing its growth story and risk profile. Recent headlines have focused on shifting consumer spending in premium...",
+                "tone": "Positive",
+                "sentiment_score": 0.45,
+                "raw_probabilities": [
+                    0.33,
+                    0.26,
+                    0.41
+                ]
+            },
+            {
+                "article_index": 6,
+                "title": "lululemon athletica inc. (LULU) is Attracting Investor Attention: Here is What You Should Know",
+                "description": "Recently, Zacks.com users have been paying close attention to Lululemon (LULU). This makes it worthwhile to examine what the stock has in store.",
+                "tone": "Neutral",
+                "sentiment_score": 0.19,
+                "raw_probabilities": [
+                    0.07,
+                    0.78,
+                    0.15
+                ]
+            },
+            {
+                "article_index": 7,
+                "title": "lululemon athletica: Dead Money Ahead Of Q3 Earnings (Downgrade)",
+                "description": "Lululemon (LULU) is downgraded to 'Hold' as shares trade near $184, reflecting fair value with limited upside.",
+                "tone": "Negative",
+                "sentiment_score": -0.34,
+                "raw_probabilities": [
+                    0.77,
+                    0.2,
+                    0.03
+                ]
+            },
+            {
+                "article_index": 8,
+                "title": "Can Lululemon\u2019s (LULU) New Executive Lineup Revitalize Its US Growth Strategy?",
+                "description": "Lululemon Athletica recently announced a major leadership change, with Celeste Burgoyne departing as President of the Americas and Global Guest Innovation at the end of 2025, while restructuring executive roles and appointing Andr\u00e9 Maestrini as President and Chief Commercial Officer to oversee all regions and channels globally. This executive transition is paired with the appointment of Carla Anderson as Senior Vice President and General Manager of North American stores, signaling renewed...",
+                "tone": "Neutral",
+                "sentiment_score": 0.27,
+                "raw_probabilities": [
+                    0.08,
+                    0.72,
+                    0.21
+                ]
+            },
+            {
+                "article_index": 9,
+                "title": "lululemon athletica inc. stock outperforms competitors on strong trading day",
+                "description": "lululemon athletica inc. stock outperforms competitors on strong trading day",
+                "tone": "Positive",
+                "sentiment_score": 1.28,
+                "raw_probabilities": [
+                    0.02,
+                    0.13,
+                    0.86
+                ]
+            },
+            {
+                "article_index": 10,
+                "title": "lululemon athletica inc. Announces Third Quarter Fiscal 2025 Earnings Conference Call",
+                "description": "VANCOUVER, British Columbia, November 26, 2025--lululemon athletica inc. (NASDAQ: LULU) today announced that its financial results for the third quarter fiscal 2025 will be released Thursday, December 11, 2025. The company will host a conference call at 4:30 p.m. Eastern time to discuss the financial results.",
+                "tone": "Neutral",
+                "sentiment_score": -0.01,
+                "raw_probabilities": [
+                    0.04,
+                    0.95,
+                    0.01
+                ]
+            },
+            {
+                "article_index": 11,
+                "title": "lululemon athletica: The Negativity Is Priced In, The Bottom Is Close",
+                "description": "",
+                "tone": "Neutral",
+                "sentiment_score": 0.25,
+                "raw_probabilities": [
+                    0.26,
+                    0.48,
+                    0.26
+                ]
+            },
+            {
+                "article_index": 12,
+                "title": "How the Narrative Around Lululemon Is Shifting Amid New Challenges and Analyst Caution",
+                "description": "Lululemon athletica's fair value target has slipped to $193.54 from $194.36, reflecting recently updated analyst projections as sentiment shifts around the company. The slight dip comes as expectations evolve due to ongoing management changes and challenges in North American demand. Stay tuned to see how investors and experts are keeping pace with the changing narrative around this dynamic stock. Analyst Price Targets don't always capture the full story. Head over to our Company Report to...",
+                "tone": "Negative",
+                "sentiment_score": -0.13,
+                "raw_probabilities": [
+                    0.52,
+                    0.39,
+                    0.09
+                ]
+            },
+            {
+                "article_index": 13,
+                "title": "Read This Before Buying Lululemon Athletica Stock",
+                "description": "The once high-flying stock trades nearly 70% off its record high.",
+                "tone": "Neutral",
+                "sentiment_score": 0.26,
+                "raw_probabilities": [
+                    0.2,
+                    0.56,
+                    0.24
+                ]
+            },
+            {
+                "article_index": 14,
+                "title": "Lululemon (LULU): A Fresh Look at Valuation Following Recent Share Price Movements",
+                "description": "Lululemon athletica (LULU) shares have shown a mild 2% increase in the past day, but remain down over the past month and year. Recent price swings have many investors reassessing the brand\u2019s growth outlook in today\u2019s shifting market. See our latest analysis for lululemon athletica. Lululemon athletica\u2019s shares have struggled to find their footing this year, with momentum fading as risk sentiment around big-brand growth stories shifts. While the 1-day share price return was a modest 2.12%, the...",
+                "tone": "Neutral",
+                "sentiment_score": 0.16,
+                "raw_probabilities": [
+                    0.3,
+                    0.49,
+                    0.21
+                ]
+            },
+            {
+                "article_index": 15,
+                "title": "lululemon Announces Updates to Leadership Team",
+                "description": "VANCOUVER, British Columbia, November 21, 2025--lululemon athletica inc. (NASDAQ:LULU) today announced that Celeste Burgoyne, President of the Americas and Global Guest Innovation, has decided to leave the company for a new opportunity outside of the industry. She will remain with lululemon until the end of December 2025 to ensure a smooth transition.",
+                "tone": "Neutral",
+                "sentiment_score": 0.01,
+                "raw_probabilities": [
+                    0.03,
+                    0.96,
+                    0.01
+                ]
+            },
+            {
+                "article_index": 16,
+                "title": "Does Lululemon\u2019s 56% Drop in 2025 Signal an Opportunity for Investors?",
+                "description": "Ever wondered if lululemon athletica\u2019s sharp drop has finally put the coveted activewear leader\u2019s stock at a bargain price? If you\u2019re trying to gauge whether now is the right moment to jump in or hold off, you\u2019re in good company. The share price has fallen by 4.1% over the past week and is down a striking 56.0% year-to-date, hinting at a dramatic shift in how the market values the company and its prospects. Recent headlines have focused on changing consumer spending trends and new...",
+                "tone": "Negative",
+                "sentiment_score": -0.03,
+                "raw_probabilities": [
+                    0.52,
+                    0.32,
+                    0.15
+                ]
+            },
+            {
+                "article_index": 17,
+                "title": "lululemon athletica inc. (LULU) Is a Trending Stock: Facts to Know Before Betting on It",
+                "description": "Recently, Zacks.com users have been paying close attention to Lululemon (LULU). This makes it worthwhile to examine what the stock has in store.",
+                "tone": "Neutral",
+                "sentiment_score": 0.21,
+                "raw_probabilities": [
+                    0.07,
+                    0.77,
+                    0.17
+                ]
+            },
+            {
+                "article_index": 18,
+                "title": "Accelerated International Expansion Could Be A Game Changer For lululemon athletica (LULU)",
+                "description": "In recent days, lululemon athletica announced accelerated international expansion efforts, including strong growth in Mainland China and plans to enter India, amid ongoing operational changes and evolving consumer preferences in North America. Analysts highlight rising competition and shifting style trends, forcing lululemon to address inventory challenges and reset its product strategy, while seeking growth through new global markets. We\u2019ll now examine how lululemon\u2019s increased focus on...",
+                "tone": "Neutral",
+                "sentiment_score": 0.25,
+                "raw_probabilities": [
+                    0.06,
+                    0.76,
+                    0.19
+                ]
+            },
+            {
+                "article_index": 19,
+                "title": "Why Is Wall Street So Bearish on Lululemon Athletica? There's 1 Key Reason.",
+                "description": "Despite slowing growth in its home market, international demand remains strong.",
+                "tone": "Negative",
+                "sentiment_score": 0.0,
+                "raw_probabilities": [
+                    0.64,
+                    0.15,
+                    0.21
+                ]
+            }
+        ]
+    },
+    {
+        "timestamp": "20251207_221903",
+        "ticker": "GE",
+        "summary": {
+            "mpnet_score": 0.564,
+            "llm_score": 0.5400000000000001,
+            "combined_score": 0.5568,
+            "combined_label": "Buy"
+        },
+        "articles": [
+            {
+                "article_index": 0,
+                "title": "What General Electric (GE)'s New Dividend and MRO Spending Plan Means For Shareholders",
+                "description": "GE Aerospace\u2019s board has declared a US$0.36 per share dividend on its common stock, payable on January 26, 2026, to shareholders of record at the close of business on December 29, 2025, with the ex-dividend date also set for December 29, 2025. This dividend decision comes shortly after GE outlined a major capital expenditure program for European MRO facilities, highlighting management\u2019s confidence in cash generation while it commits substantial funds to long-term efficiency and service...",
+                "tone": "Neutral",
+                "sentiment_score": 0.65,
+                "raw_probabilities": [
+                    0.03,
+                    0.53,
+                    0.44
+                ]
+            },
+            {
+                "article_index": 1,
+                "title": "GE Aerospace Board of Directors Authorizes Regular Quarterly Dividend",
+                "description": "CINCINNATI, December 04, 2025--The Board of Directors of GE Aerospace (NYSE: GE) today declared a $0.36 per share dividend on the outstanding common stock of the Company. The dividend is payable January 26, 2026, to shareholders of record at the close of business on December 29, 2025. The ex-dividend date is December 29, 2025.",
+                "tone": "Neutral",
+                "sentiment_score": 0.16,
+                "raw_probabilities": [
+                    0.03,
+                    0.85,
+                    0.12
+                ]
+            },
+            {
+                "article_index": 2,
+                "title": "Calls of the Day: Robinhood, Delta Air Lines, GE Vernova, Vertiv, GE Aerospace",
+                "description": "The Investment Committee debate the latest Calls of the Day.",
+                "tone": "Neutral",
+                "sentiment_score": 0.34,
+                "raw_probabilities": [
+                    0.1,
+                    0.64,
+                    0.26
+                ]
+            },
+            {
+                "article_index": 3,
+                "title": "GE Aerospace (GE) Declines More Than Market: Some Information for Investors",
+                "description": "GE Aerospace (GE) closed the most recent trading day at $288.45, moving 3.35% from the previous trading session.",
+                "tone": "Negative",
+                "sentiment_score": -0.01,
+                "raw_probabilities": [
+                    0.71,
+                    0.06,
+                    0.23
+                ]
+            },
+            {
+                "article_index": 4,
+                "title": "The Zacks Analyst Blog Highlights AMD, GE Aerospace and IBM",
+                "description": "AMD, GE Aerospace and IBM gain traction in Zacks' latest research as AI demand, aviation strength and hybrid-cloud strategies drive sentiment.",
+                "tone": "Neutral",
+                "sentiment_score": 0.33,
+                "raw_probabilities": [
+                    0.04,
+                    0.73,
+                    0.23
+                ]
+            },
+            {
+                "article_index": 5,
+                "title": "Top Stock Reports for AMD, GE Aerospace & IBM",
+                "description": "AMD's EPYC and Instinct momentum, GE Aerospace's engine demand, and IBM's multi-cloud push headline today's standout research reports.",
+                "tone": "Neutral",
+                "sentiment_score": 0.45,
+                "raw_probabilities": [
+                    0.03,
+                    0.66,
+                    0.31
+                ]
+            },
+            {
+                "article_index": 6,
+                "title": "Investors Heavily Search GE Aerospace (GE): Here is What You Need to Know",
+                "description": "Zacks.com users have recently been watching GE (GE) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects.",
+                "tone": "Neutral",
+                "sentiment_score": 0.54,
+                "raw_probabilities": [
+                    0.07,
+                    0.55,
+                    0.38
+                ]
+            },
+            {
+                "article_index": 7,
+                "title": "GE Aerospace Stock: Is GE Outperforming the Industrial Sector?",
+                "description": "Continuing its solid momentum, GE Aerospace has notably outperformed the broader industrial sector over the past year, and analysts remain optimistic about the stock\u2019s prospects.",
+                "tone": "Positive",
+                "sentiment_score": 1.45,
+                "raw_probabilities": [
+                    0.01,
+                    0.01,
+                    0.97
+                ]
+            },
+            {
+                "article_index": 8,
+                "title": "GE Aerospace to Pump in $53M to Upgrade West Jefferson Facility",
+                "description": "GE is investing $53M to expand its West Jefferson site, boosting production capacity of engine components output and adding more than 40 jobs.",
+                "tone": "Positive",
+                "sentiment_score": 0.97,
+                "raw_probabilities": [
+                    0.01,
+                    0.34,
+                    0.65
+                ]
+            },
+            {
+                "article_index": 9,
+                "title": "What Every GE Aerospace Investor Should Know Before Buying",
+                "description": "The \"new\" GE Aerospace is not the old General Electric, and that's good news for investors.",
+                "tone": "Positive",
+                "sentiment_score": 0.8,
+                "raw_probabilities": [
+                    0.02,
+                    0.44,
+                    0.54
+                ]
+            },
+            {
+                "article_index": 10,
+                "title": "Saudia Group Selects GE Aerospace GEnx-1B Engines to Power New 787 Dreamliners",
+                "description": "A multi-year agreement advancing aerospace localization in the Kingdom SaudiaGroup x GEAerospace - Signing Ceremony Signing ceremony for SaudiaGroup x GEAerospace. WASHINGTON, Nov. 24, 2025 (GLOBE NEWSWIRE) -- Saudia Group, one of the largest aviation conglomerates in the MENA region, has announced a strategic agreement with GE Aerospace (NYSE: GE) to equip Saudia, the Kingdom of Saudi Arabia\u2019s national flag carrier, with GEnx-1B engines for its 2023 order of 39 Boeing 787-9 and 787-10 aircraft.",
+                "tone": "Positive",
+                "sentiment_score": 0.83,
+                "raw_probabilities": [
+                    0.01,
+                    0.43,
+                    0.56
+                ]
+            },
+            {
+                "article_index": 11,
+                "title": "EnerSys, GE Aerospace, REV Group, Avis Budget Group, and Universal Logistics Shares Plummet, What You Need To Know",
+                "description": "A number of stocks fell in the afternoon session after markets faded the Nvidia rally in the morning session, as investors remained uncertain about future rate cuts.",
+                "tone": "Negative",
+                "sentiment_score": -0.47,
+                "raw_probabilities": [
+                    0.96,
+                    0.04,
+                    0.0
+                ]
+            },
+            {
+                "article_index": 12,
+                "title": "White House Touts $270 Billion Worth of Deals at Saudi-palooza",
+                "description": "A day after the White House proclaimed that Saudi Arabia boosted its spring pledge to invest $600 billion in the US to a tidy $1 trillion during Crown Prince Mohammed bin Salman\u2019s visit to Washington, DC, President Donald Trump said companies from both nations inked $270 billion in deals at a US-Saudi business forum.  No timeline was given for Saudi Arabia\u2019s $1 trillion in investments and, while the US-Saudi Investment Forum on Wednesday drew corporate royalty from Chevron, Tesla, Nvidia, Qualcomm, Cisco, General Dynamics, Pfizer and more, it wasn\u2019t immediately clear which companies inked deals.  Trump did say GE Aerospace will \u201cdeliver dozens of new engines\u201d while a handful of other pacts, while short on financial details, highlighted some international bargaining.",
+                "tone": "Neutral",
+                "sentiment_score": 0.09,
+                "raw_probabilities": [
+                    0.01,
+                    0.93,
+                    0.06
+                ]
+            },
+            {
+                "article_index": 13,
+                "title": "Middle East Engine Deals Might Change The Case For Investing In General Electric (GE)",
+                "description": "Saudia Group has announced a major agreement with GE Aerospace to supply GEnx-1B engines, maintenance, and technical training for its fleet of Boeing 787s, alongside significant new engine deals recently made with flydubai and Emirates for their expanding long-haul operations. These contracts illustrate strong demand for GE's advanced propulsion technology and deepen its international partnerships, particularly in the Middle East, supporting the localization of aerospace expertise. We'll...",
+                "tone": "Positive",
+                "sentiment_score": 1.11,
+                "raw_probabilities": [
+                    0.01,
+                    0.25,
+                    0.74
+                ]
+            },
+            {
+                "article_index": 14,
+                "title": "Trump Says $270 Billion in Deals Being Signed at US-Saudi Forum",
+                "description": "\u201cWe\u2019re told that $270 billion in agreements and sales are being signed between dozens of companies, and that\u2019s just happening today,\u201d Trump said Wednesday during a keynote address at the business gathering.  One company named by Trump as entering into a deal is GE Aerospace, which he said would \u201cdeliver dozens of new engines.\u201d  The forum comes a day after Trump rolled out the red carpet for Crown Prince Mohammed, also known as MBS, at the White House for a day of dealmaking capped by a dinner with prominent tech, finance and energy executives.",
+                "tone": "Neutral",
+                "sentiment_score": 0.11,
+                "raw_probabilities": [
+                    0.02,
+                    0.9,
+                    0.08
+                ]
+            },
+            {
+                "article_index": 15,
+                "title": "flydubai inks deal with GE Aerospace for GEnx-1B engines and services to power its first widebody fleet",
+                "description": "GE Aerospace (NYSE:GE) and Dubai-based carrier flydubai today announced a new order for 60 GEnx-1B engines to power flydubai's first widebody fleet of 30 Boeing 787-9. The agreement, signed at Dubai Airshow 2025, also includes spare engines and a long-term services agreement to support the carrier's launch of long-haul operations.",
+                "tone": "Neutral",
+                "sentiment_score": 0.68,
+                "raw_probabilities": [
+                    0.01,
+                    0.53,
+                    0.46
+                ]
+            },
+            {
+                "article_index": 16,
+                "title": "GE Aerospace Nabs Engine Orders From flydubai, Emirates in Middle East Play",
+                "description": "GE Aerospace Nabs Engine Orders From flydubai, Emirates in Middle East Play",
+                "tone": "Neutral",
+                "sentiment_score": 0.3,
+                "raw_probabilities": [
+                    0.02,
+                    0.78,
+                    0.2
+                ]
+            },
+            {
+                "article_index": 17,
+                "title": "Emirates Signs Deal for 130 Additional GE Aerospace Engines to Power its Growing Boeing 777-9 fleet",
+                "description": "GE Aerospace (NYSE: GE) and Emirates today announced an agreement for 130 GE9X engines to power 65 additional Boeing 777-9 aircraft, bringing the airline's total GE9X engines on order to more than 540. This also includes spare engines and a long-term services agreement.",
+                "tone": "Positive",
+                "sentiment_score": 0.78,
+                "raw_probabilities": [
+                    0.02,
+                    0.46,
+                    0.52
+                ]
+            },
+            {
+                "article_index": 18,
+                "title": "Air Traffic Is Stabilizing, According to GE Aerospace. As the Company Raises Its Forecast, Is It Time to Buy the Stock?",
+                "description": "GE Aerospace reported strong third-quarter earnings as its flywheel looks set to benefit from steady demand.",
+                "tone": "Positive",
+                "sentiment_score": 1.4,
+                "raw_probabilities": [
+                    0.03,
+                    0.02,
+                    0.94
+                ]
+            },
+            {
+                "article_index": 19,
+                "title": "Jim Cramer Says GE Aerospace\u2019s \u201cBusiness is Remarkable\u201d",
+                "description": "GE Aerospace (NYSE:GE) is one of the stocks Jim Cramer mentioned in his latest comments. Cramer noted that the company\u2019s quarter did not get much attention due to the government shutdown. He remarked: \u201cLet\u2019s not forget the second day thesis for travel includes the aircraft themselves. Last week, I heard from Larry Culp, he\u2019s the [\u2026]",
+                "tone": "Positive",
+                "sentiment_score": 0.77,
+                "raw_probabilities": [
+                    0.07,
+                    0.39,
+                    0.54
+                ]
+            }
+        ]
     }
 ]
