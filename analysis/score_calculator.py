@@ -6,6 +6,18 @@ from datetime import datetime
 from analysis.mpnet_sentiment import mpnet_analyzer
 from analysis.llm_sentiment import LLMSentimentAnalyzer
 
+def get_recommendation_label(score: float) -> str:
+    """
+    Centralized logic for converting a numerical score (-1 to 1) 
+    into a text label.
+    """
+    if score > 0.3:
+        return "Buy"
+    elif score < -0.3:
+        return "Sell"
+    else:
+        return "Hold"
+
 def calculate_final_score(fundamentals: dict, news_sentiment: float, macro_score: float):
     # weights
     w1, w2, w3 = 0.7, 0.2, 0.1
@@ -16,15 +28,8 @@ def calculate_final_score(fundamentals: dict, news_sentiment: float, macro_score
     
     score = w1 * fundamental_score + w2 * news_sentiment + w3 * macro_score
     score = np.clip(score, -1, 1)
-    
-    if score > 0.3:
-        recommendation = "Buy"
-    elif score < -0.3:
-        recommendation = "Sell"
-    else:
-        recommendation = "Hold"
-    
-    return score, recommendation
+        
+    return score
 
 MASTER_LOG_FILE = "logs/sentiment_master.json"
 

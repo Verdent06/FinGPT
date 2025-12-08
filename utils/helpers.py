@@ -14,7 +14,7 @@ def extract_company_name(full_name):
     clean_name = re.sub(r"\s+", " ", clean_name)
     return clean_name.strip().rstrip(".,")
     
-def display_results(ticker, info, news_articles, news_sentiment, final_score, final_combined_score, recommendation):
+def display_results( info, news_sentiment, final_score, final_combined_score, recommendation, llm_score, llm_analysis):
     """
     Nicely print the analysis results for a company.
     """
@@ -25,9 +25,11 @@ def display_results(ticker, info, news_articles, news_sentiment, final_score, fi
     print("Market Cap:", info.get("marketCap"))
 
     print("\n--- Recent News ---")
-    print("Average Sentiment:", news_sentiment)
+    print(f"Average Sentiment: {news_sentiment:.2f}")
 
     print("\n--- Final Combined Score and Recommendation ---")
     print(f"Final Score: {final_score:.2f}")
+    print(f"LLM Score: {llm_score:.2f}")
+    print(f"LLM Analysis: {llm_analysis}")
     print(f"Combined Score with LLM: {final_combined_score:.2f}")
     print(f"Recommendation: {recommendation}")

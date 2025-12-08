@@ -2,7 +2,7 @@ import yfinance as yf
 from typing import Dict, Any
 from analysis.fundamentals import get_fundamentals
 from analysis.macro import get_macro_info, calc_macro_score
-from analysis.score_calculator import get_hybrid_sentiment, calculate_final_score
+from analysis.score_calculator import get_hybrid_sentiment, calculate_final_score, get_recommendation_label
 from data.news_handler import fetch_company_news
 from data.yahoo_handler import get_stock_info
 from utils.helpers import extract_company_name
@@ -134,18 +134,20 @@ class StockAnalysisService:
         news_sentiment = sentiment_data["combined_score"]
         raw_news = sentiment_data["raw_news"]
 
-        final_score, base_recommendation = calculate_final_score(
+        final_score = calculate_final_score(
             fundamentals_dict, 
             news_sentiment, 
             macro_score
         )
 
-        llm_score, llm_recommendation, llm_justification = llm_handler.get_llm_recommendation(
+        llm_score, llm_analysis = llm_handler.get_llm_recommendation(
             self.llm, ticker, info, fundamentals_dict, final_score, news_sentiment, macro_score, company_name
         )
 
         # 5. Combine Scores
         final_combined_score = 0.8 * final_score + 0.2 * llm_score
+
+        final_recommendation = get_recommendation_label(final_combined_score)
 
         return {
             "ticker": ticker,
@@ -154,17 +156,20 @@ class StockAnalysisService:
             "info": info,
             "raw_news": raw_news,
             "hybrid_sentiment": news_sentiment,
+            "news_sentiment": news_sentiment,
             
             "fundamentals": fundamentals_dict,
             "macro": macro_data,
             "sentiment": sentiment_data,
             
+            "llm_score": llm_score,
+
             "final_score": float(final_score),
             "final_combined_score": float(final_combined_score),
-            "recommendation": llm_recommendation,
-            "raw_data": {
+            "recommendation": final_recommendation,
+            "analysis": llm_analysis,
                 "current_price": info.get("currentPrice"),
                 "market_cap": info.get("marketCap"),
                 "pe_ratio": info.get("trailingPE")
             }
-        }
+        

@@ -32,13 +32,13 @@ def main():
 
         # ----------------- Display Results -----------------
         helpers.display_results(
-            ticker, 
             results["info"], 
-            results["raw_news"], 
-            results["hybrid_sentiment"], 
+            results["news_sentiment"], 
             results["final_score"], 
             results["final_combined_score"], 
-            results["recommendation"]
+            results["recommendation"],
+            results["llm_score"],
+            results["analysis"]
         )
 
     except KeyboardInterrupt:

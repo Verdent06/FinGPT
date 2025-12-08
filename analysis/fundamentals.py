@@ -23,7 +23,6 @@ def calc_earnings_growth(stock):
 def calc_valuation(stock, sector, sector_peer_pes: list):
     info = stock.info
     
-    # REMOVED: The expensive loop that fetched peer data via yfinance is GONE.
     sector_pes = [pe for pe in sector_peer_pes if pe and pe > 0]
     dynamic_sector_pe = np.mean(sector_pes) if sector_pes else 25
     
@@ -32,9 +31,12 @@ def calc_valuation(stock, sector, sector_peer_pes: list):
     pe = pe_forward if pe_forward and pe_forward > 0 else (pe_trailing if pe_trailing and pe_trailing > 0 else dynamic_sector_pe)
     
     V = np.clip(dynamic_sector_pe / pe, 0, 1)
+
+    if pe_forward is None and pe_trailing is None:
+        return 0.5
+
     return V
 
-#Centralized helper to fetch peer data for the sector
 def fetch_sector_peer_pes(sector: str) -> list:
     """Fetches trailing P/E ratios for all peer tickers in the sector."""
     sector_pes = []
