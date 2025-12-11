@@ -8,10 +8,9 @@
     "S": 0.1
   },
   "weights": {
-    "fundamentals": 0.7,
-    "sentiment": 0.2,
-    "macro": 0.1
-  },
+    "fundamentals": 0.6,
+    "sentiment": 0.4
+    },
   "thresholds": {
     "buy": 0.3,
     "sell": -0.3
@@ -25,5 +24,9 @@
   "llm": {
     "model_path":"",
     "use_llm": true
+  },
+  "sentiment_split": {
+    "mpnet": 0.5,
+    "llm": 0.5
   }
 }

@@ -5,7 +5,7 @@ from datetime import datetime
 
 DATA_FILE = "data/training_data.csv"
 
-def log_training_example(ticker, fund_score, mpnet_score, llm_score, macro_score, current_price):
+def log_training_example(ticker, fund_score, mpnet_score, llm_score, current_price):
     """
     Saves a single analysis snapshot to a CSV file.
     This creates the dataset for future regression training.
@@ -18,9 +18,8 @@ def log_training_example(ticker, fund_score, mpnet_score, llm_score, macro_score
         "fund_score": fund_score,
         "mpnet_score": mpnet_score,
         "llm_score": llm_score,
-        "macro_score": macro_score,
         "price_at_analysis": current_price,
-        "target_return": None # To be filled later by a separate script
+        "target_return": None
     }
     
     if os.path.exists(DATA_FILE):
@@ -30,8 +29,8 @@ def log_training_example(ticker, fund_score, mpnet_score, llm_score, macro_score
         
     mask = (df['date'] == new_row['date']) & (df['ticker'] == new_row['ticker'])
     if not df[mask].empty:
-        df.loc[mask, ["fund_score", "mpnet_score", "llm_score", "macro_score", "price_at_analysis"]] = \
-            [fund_score, mpnet_score, llm_score, macro_score, current_price]
+        df.loc[mask, ["fund_score", "mpnet_score", "llm_score", "price_at_analysis"]] = \
+            [fund_score, mpnet_score, llm_score, current_price]
     else:
         df = pd.concat([df, pd.DataFrame([new_row])], ignore_index=True)
         

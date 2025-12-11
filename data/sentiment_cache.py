@@ -26,7 +26,6 @@ def get_cached_sentiment(text):
     Uses an MD5 hash of the text (title + description) as the unique key.
     """
     cache = load_cache()
-    # Create a unique ID for the content
     content_id = hashlib.md5(text.encode("utf-8")).hexdigest()
     
     return cache.get(content_id)
@@ -40,6 +39,7 @@ def update_cache(text, sentiment_result):
     content_id = hashlib.md5(text.encode("utf-8")).hexdigest()
     
     cache[content_id] = {
+        "headline": text,
         "score": sentiment_result.get('sentiment_score', 0),
         "confidence": sentiment_result.get('confidence', 0),
         "label": sentiment_result.get('sentiment_label', "Neutral")

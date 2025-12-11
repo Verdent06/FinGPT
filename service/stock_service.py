@@ -1,8 +1,6 @@
 import yfinance as yf
 from typing import Dict, Any
 from analysis.fundamentals import get_fundamentals
-from analysis.macro import get_macro_info, calc_macro_score
-# FIX 1: Import calculate_fundamental_score
 from analysis.score_calculator import get_hybrid_sentiment, calculate_final_score, get_recommendation_label, calculate_fundamental_score
 from data.news_handler import fetch_company_news
 from data.yahoo_handler import get_stock_info
@@ -37,19 +35,6 @@ class StockAnalysisService:
     def get_fundamentals_only(self, ticker: str) -> Dict[str, float]:
         """Fetches and returns the calculated fundamental metrics only."""
         return get_fundamentals(ticker.upper())
-
-    def get_macro_data(self) -> Dict[str, Any]:
-        """
-        Fetches macroeconomic indicators and calculates the macro score.
-        """
-        indicators = get_macro_info()
-        macro_score = calc_macro_score(indicators)
-        indicators_clean = {k: float(v) for k, v in indicators.items()}
-        
-        return {
-            "indicators": indicators_clean,
-            "score": float(macro_score)
-        }
 
     def get_sentiment_result(self, ticker: str) -> Dict[str, Any]:
         """Calculates and returns the hybrid news sentiment result using injected models."""
@@ -92,7 +77,6 @@ class StockAnalysisService:
         macro_data = self.get_macro_data()
         sentiment_result = self.get_sentiment_result(ticker)
         
-        # FIX 2: Calculate scores separately
         final_score = calculate_final_score(
             fundamentals_dict, 
             sentiment_result["combined_score"], 
@@ -128,10 +112,8 @@ class StockAnalysisService:
         sector = info.get("sector", "Unknown")
 
         fundamentals_dict = self.get_fundamentals_only(ticker)
-        macro_data = self.get_macro_data()
         sentiment_data = self.get_sentiment_result(ticker)
         
-        macro_score = macro_data["score"]
         news_sentiment = sentiment_data["combined_score"]
         raw_news = sentiment_data["raw_news"]
 
@@ -139,11 +121,10 @@ class StockAnalysisService:
         final_score = calculate_final_score(
             fundamentals_dict, 
             news_sentiment, 
-            macro_score
         )
 
         llm_score, llm_analysis = llm_handler.get_llm_recommendation(
-            self.llm, ticker, info, fundamentals_dict, final_score, news_sentiment, macro_score, company_name
+            self.llm, ticker, info, fundamentals_dict, final_score, news_sentiment, company_name
         )
 
         # FIX 4: Get fundamental score using specific function
@@ -155,12 +136,9 @@ class StockAnalysisService:
             fund_score=f_score_val,
             mpnet_score=sentiment_data["mpnet_score"],
             llm_score=sentiment_data.get("llm_score", 0), # Use safer .get()
-            macro_score=macro_score,
             current_price=info.get("currentPrice", 0)
         )
 
-        # 6. Combine Scores
-        # This will now work because final_score is definitely a float
         final_combined_score = 0.8 * final_score + 0.2 * llm_score
 
         final_recommendation = get_recommendation_label(final_combined_score)
@@ -175,7 +153,6 @@ class StockAnalysisService:
             "news_sentiment": news_sentiment,
             
             "fundamentals": fundamentals_dict,
-            "macro": macro_data,
             "sentiment": sentiment_data,
             
             "llm_score": llm_score,

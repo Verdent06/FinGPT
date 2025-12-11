@@ -6,7 +6,7 @@ from datetime import datetime
 from analysis.mpnet_sentiment import mpnet_analyzer
 from analysis.llm_sentiment import LLMSentimentAnalyzer
 from data.sentiment_cache import get_cached_sentiment, update_cache 
-from utils.config_loader import CONFIG  # Use the robust loader we already have
+from utils.config_loader import CONFIG
 
 MASTER_LOG_FILE = "logs/sentiment_master.json"
 
@@ -45,23 +45,18 @@ def calculate_fundamental_score(fundamentals: dict) -> float:
     )
     return score
 
-def calculate_final_score(fundamentals: dict, news_sentiment: float, macro_score: float) -> float:
+def calculate_final_score(fundamentals: dict, news_sentiment: float) -> float:
     """
     Calculates the final multi-factor score.
     Returns a SINGLE float (fixing the multiplication error).
     """
-    # Load top-level weights
     weights = CONFIG.get("weights", {})
     
-    # 1. Get Fundamental Score
     fund_score = calculate_fundamental_score(fundamentals)
     
-    # 2. Calculate Final Weighted Score
-    # Keys match config.json: "fundamentals", "sentiment", "macro"
     final_score = (
-        weights.get("fundamentals", 0.7) * fund_score + 
-        weights.get("sentiment", 0.2) * news_sentiment + 
-        weights.get("macro", 0.1) * macro_score
+        weights.get("fundamentals", 0.6) * fund_score + 
+        weights.get("sentiment", 0.4) * news_sentiment 
     )
     
     return np.clip(final_score, -1, 1)
@@ -100,10 +95,13 @@ def get_hybrid_sentiment(raw_news, ticker, clf, embedder, llm_instance, mpnet_we
     
     final_llm_score = np.mean(llm_scores) if llm_scores else 0
     
-    # 3. Combine Scores
-    llm_weight = 1 - mpnet_weight
-    combined_score = mpnet_weight * mpnet_score + llm_weight * final_llm_score
+    sentiment_split = CONFIG.get("sentiment_split", {"mpnet": 0.5, "llm": 0.5})
     
+    combined_score = (
+        sentiment_split["mpnet"] * mpnet_score + 
+        sentiment_split["llm"] * final_llm_score
+    )    
+
     # 4. Logging
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     log_entry = {
@@ -113,12 +111,11 @@ def get_hybrid_sentiment(raw_news, ticker, clf, embedder, llm_instance, mpnet_we
             "mpnet_score": mpnet_score,
             "llm_score": final_llm_score,
             "combined_score": combined_score,
-            "combined_label": get_recommendation_label(combined_score) # Re-use label logic or keep simple
+            "combined_label": get_recommendation_label(combined_score)
         },
         "articles": mpnet_results
     }
     
-    # Safe Append to Master Log
     if os.path.exists(MASTER_LOG_FILE):
         try:
             with open(MASTER_LOG_FILE, "r") as f:

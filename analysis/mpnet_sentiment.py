@@ -8,7 +8,7 @@ def mpnet_analyzer(news_articles, clf, embedder, label_map):
 
     results = []
     for i, p in enumerate(probs):
-        score = (-0.5 * p[0]) + (0 * p[1]) + (1.5 * p[2])
+        score = (-1.0 * p[0]) + (0 * p[1]) + (1.0 * p[2])
         label = label_map[np.argmax(p)]
         results.append({
             'article_index': i,
